@@ -1,0 +1,5629 @@
+Project #1: Fashion Blog
+index.html
+<!DOCTYPE html>
+<html>
+  </html>
+  <head>
+    <title>Everyday with Isa</title>
+    </head>
+    <body>
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/profile.jpg" />
+      <h3>
+        Isabelle Rodriguez | 1 day ago
+        </h3>
+      <h1>
+        An Insider's Guide to NYFW
+        </h1>
+        <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/image-one.jpeg" />
+        <p><a href="https://en.wikipedia.org/wiki/New_York_Fashion_Week">NYFW</a> can be both amazingly fun & incredibly overwhelming, especially if you've never been. Luckily, I'm here to give you an insider's guide and make your first show a pleasurable experience. By taking my tips and tricks, and following your gut, you'll have an unforgettble experience!</p>
+        <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/image-two.jpeg" />
+        <p>If you're lucky or connected you can get an invite, sans the price tag. But I wasn't so lucky or connected my first 2 years so I'm here to help you out. First, plan out which shows are most important to you and make a schedule and this is a biggie: SET A BUDGET. If you're worrying about blowing your cash the whole time you won't have fun. Then check out prices, days, and times and prioritize the designers you want to see most. Lastly, purchase your tickets and get exctied.</p>
+        <h2>
+          Dressing for the Shows
+          </h2>
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/image-three.jpeg" />
+          <p>Always be true to your own sense of style, if you don't you'll be uncomfortable the whole time and it will show. Remeber, NYFW is about expressing yourself and taking in what the designers have chosen to express through their new lines. Also it's important to wear shoes you'll be comfortable all day. Obviously you want to look good, but you'll be on your feet all day long, so be prepared.</p>
+          <h4>
+Related Content
+            </h4>
+            <ul>
+              <li>How To Style Boyfriend Jeans</li>
+             <li> When PRint Is Too Much</li>
+             <li> The Overalls Trend</li>
+             <li> Fall's It Color: Blush</li>
+              </ul>
+              <div>
+              
+                <p>
+                  <strong>email:</strong>: isa@fashionblog.com | <strong>phone:</strong> 917-555-1098 | <strong>address:</strong> 371 284th St, New York, NY, 10001
+                  </p>
+                  </div>
+      </body>
+
+Project #2: Wine Festival Schedule
+index.html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Aguillar Family Wine Festival</title>
+  <link rel="stylesheet" type="text/css" href="reset.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Annual Aguillar Family Wine Festival</h1>
+  </header>
+  
+  <div class="container">
+    <table>
+<thead>
+  <tr>
+    <th colspan="2">
+    <h1>Wine Festival Schedule</h1>
+    </th>
+    </tr>
+    <tr>
+      <th>
+        <h2>Time</h2>
+        </th>
+        <th>
+          <h2>Event</h2>
+          </th>
+      </tr>
+
+  </thead>
+  <tbody>
+    <tr>
+      <td class="left"><h3>12:00 PM</h3></td>
+      <td><h3>Welcome Reception</h3></td>
+       </tr>
+    <tr>
+      <td class="left"><h3>1:00 PM</h3></td>
+      <td><h3>Storytelling & Tasting</h3></td> 
+      </tr>
+    <tr>
+      <td class="left"><h3>2:00 PM</h3></td>
+      <td><h3>Wine Luncheon</h3></td>
+       </tr>
+    <tr>
+      <td class="left"><h3>3:00 PM</h3></td>
+      <td><h3>Aguillar Family Wines</h3></td>
+       </tr>
+    <tr>
+      <td class="left"><h3>4:00 PM</h3></td>
+      <td><h3>Wine & Cheese Tasting</h3></td>
+       </tr>
+    </tbody>
+  
+      </table>
+
+  </div>
+  
+  <footer>
+    <h3>Contact</h3>
+    <h3>Location</h3>
+    <h3>Privacy Policy</h3>
+  </footer>
+</body>
+
+</html>
+
+style.css
+body {
+  background-color: #242f44;
+  color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-top: 5px;
+}
+
+h1 {
+  font-size: 36px;
+  padding: 15px;
+  color: #8c6b48;
+  background-color: white;
+}
+
+h2 {
+  font-size: 24px;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 20px;
+  padding: 15px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 500;
+  line-height: 2.7;
+  letter-spacing: 0.8px;
+}
+
+th {
+  border: 2px solid #8c6b48;
+}
+
+table {
+  text-align: center;
+  margin: 20px auto;
+}
+
+td {
+  border: 2px solid #8c6b48;
+  width: 300px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 5px;
+  background-color: #242f44;
+  z-index: 5;
+}
+footer h3 {
+  display: inline-block;
+  font-size: 14px;
+  background-color: #242f44;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  height: 800px;
+}
+
+
+.left {
+  width: 150px;
+}
+
+Project #3: Form a Story
+index.html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Form a Story</title>
+  </head>
+  <body>
+    
+    <section id="top">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html-forms/formAStoryLogo.svg" alt="Form A Story Logo">
+    </section>
+
+    <section id="main">
+      <h1>Complete the Form -<br> Complete the Story!</h1>
+      <hr>
+      <!--Add your form below:-->
+      
+      <form action="story.html" method="GET">
+        <label for="animal-1">Animal:</label>
+        <br>
+        
+        <input id="animal-1" name="animal-1" type="text" required>
+        <br>
+        <label for="animal-2">Another Animal:</label>
+        <input id="animal-2" name="animal-2" type="text" required>
+        <br>
+        <label for="animal-3">3rd Animal:</label>
+        <input id="animal-3" name="animal-3" type="text" required>
+        <br>
+        <label for="adj-1">Adjective (past tense)</label>
+        <input id="adj-1" name="adj-1" type="text" required>
+        <br>
+        <label for="verb-1">Verb (ends in -ing)</label>
+        <input id="verb-1" name="verb-1" type="text" required>
+        <br>
+        <label for="num-1">Number:</label>
+        <input id="num-1" name="num-1" type="number" required>
+        <br>
+        <span>Yes or No:</span>
+        <input id="yes" name="answer" type="radio" value="yes" required>
+        <input id="no" name="answer" type="radio" value="no">
+        <label for="no">
+          <br>
+
+<label for="speed">Relative speed (ends in -er)</label>
+<select id="speed" name="speed" required>
+  <br>
+  <option value="faster">Faster</option>
+  <option value="slower">Slower</option>
+
+<label for="quote">Motivational Quote:</label>
+<input id="quote" name="quote" type="text" list="quote choices" required>
+<datalist id="quote choices">
+<option value="winner gets ice cream!"></option>
+<option value="always do your best"></option>
+<option value="go for it!"></option>
+  </datalist>
+  <br>
+  <label for="message">Meaningful Message:</label>
+  <textarea id="message" name="message" rows="8" cols="40"></textarea>
+  <br>
+
+        
+        <input type="submit" value="For my Story!">
+
+      
+        
+        </form>
+    </section>
+  </body>
+</html>
+
+Project #4: New York City Blog
+index.html
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>  
+     <nav>
+       <ul>
+         <li>Blog</li>
+         <li>Media</li>
+         <li>About</li>
+         <li><a href="#item_name">insert_item_name</a></li>
+         </ul>
+       </nav> 
+       <header>
+<h1>New York City</h1>
+         </header>
+         <main>
+<section id="potato">
+  <article>
+<p> New York City is made ip of five boroughs which include Queens, Manhattan, Brooklyn, the Bronz, and Staten Isaldn. The city is home of approximately 8 million people. In 1876, France gifted the City of New York what is known as the Statue of Liberty, which is currently located on Ellis Island commonly visited by tourists. However, it took 10 years to assemble and therefore wasn't unveiled until 1886. Another tourist destination is Times Square. Time Square is commonly known for the big buildings, Broadway shows, and bright neon signs. This famous location was named after the New York Times after the Times moved to that location. Prior to that, it was named Longacre Square. New York City is also known for its bridges that connect the boroughs and allow ease of transportation.</p>
+    </article>
+  </section>
+  <figure>
+<img src="https://codecademy-content.s3.amazonaws.com/courses/Semantic+HTML/statue-of-liberty.jpeg">
+<figcaption>
+  This is the Statue of Liberty, a popular tourist attraction located on Ellis Island.
+  </figcaption>
+    </figure>
+    <aside>
+<p>New York City is very popular for the variety of great food it has. Some of the top food items in NYC include:</p>
+<ol>
+1. Pizza
+2. Bagels
+3. Burgers and Sandwiches
+4. Ramen
+5. Tacos
+6. Pasta
+7. Desserts
+  </ol>
+      </aside>
+      <section>
+<article>
+  <h2>The Scenery in NYC</h2>
+  <p>While the view in the city is beautiful, the sounds are not as lovely. Below you'll see an example of the view and the sounds you'll deal with in NYC on a daily basis.</p>
+  </article>
+  <video src="https://codecademy-content.s3.amazonaws.com/courses/Semantic+HTML/nyc-skyline-timelapse.mp4" controls>
+  </video>
+  <embed src="https://codecademy-content.s3.amazonaws.com/courses/Semantic+HTML/nyc-skyline.jpeg">
+  <audio controls src="https://codecademy-content.s3.amazonaws.com/courses/Semantic+HTML/nyc-sounds.mov">
+    </audio>
+        </section>
+           </main>
+           <footer>
+             <p>Posted by: Bryce Fannin</p>
+             </footer>
+
+     
+     
+     
+   </body>
+</html>
+Project #5: Healthy Recipes
+index.html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Quinoa and Kale Salad Recipe</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+  <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/salad.jpg" alt="Kale Caeasar Salad"/>
+  <h1>Kale Caesar Quinoa Salad with Roasted Chicken</h1>
+  <p class="description">Kale and quinoa provide a healthy base for roasted chicken topped with a light Caesar sauce.</p>
+
+  <p id="cook-time">Total time: 45 minutes</p>
+
+  <h2>Ingredients</h2>
+  <ul class="ingredients">
+    <li>1/4 cup kale</li>
+    <li>1 cup Quinoa</li>
+    <li>2 tbsp Olive Oil</li>
+    <li>1 chicken breast</li>
+    <li>Caesar Dressing</li>
+  </ul>
+
+  <h2>Preparation</h2>
+  <ol>
+    <li>
+      <p>Prepare quinoa and roast chicken until golden brown and 165 in middle.</p>
+      <p class="time">Time: 40 minutes</p>
+    </li>
+    <li>
+      <p>Toss quinoa, chicken, kale, and Caesar dressing until coated.</p>
+      <p class="time">Time: 4 minutes</p>
+    </li>
+    <li>
+      <p>Add walnuts and olive oil as garnish.</p>
+      <p class="time">Time: 1 minute</p>
+    </li>
+  </ol>
+
+  <p class="citation">Find this recipe and more <a href="http://www.myrecipes.com/recipe/kale-caesar-salad-chicken" target="_blank" class="external-link">here</a>.</p>
+
+</body>
+
+</html>
+style.css
+img {
+  height: 150px;
+}
+
+.description {
+  font-size: 20px;
+}
+#cook-time {
+  font-weight: bold;
+}
+
+.ingredients li {
+  list-style: square;
+}
+
+p.time {
+  color: gray;
+}
+
+.external-link {
+  color: SeaGreen;
+}
+
+h1, h2, p, li {
+  font-family: Helvetica;
+}
+
+Project #6: Olivia Woodruff Portfolio
+index.html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/travel.jpeg" />
+    <h1>Olivia Woodruff</h1>
+    <p class="about-me">I am a developer specializing in HTML and CSS. I like to run, bike, and make coffee using an Aeropress.</p>
+  </div>
+
+  <h2>Projects</h2>
+  <p class="title">Web Development projects</p>
+  <ul>
+    <li>Coffee Bruër</li>
+    <li>Taco Finder</li>
+    <li>CSS Selector Finder</li>
+    <li>HTML Formatter</li>
+  </ul>
+
+  <p class="title">Design projects</p>
+  <ul>
+    <li>Yum Yum Fudge Inc.</li>
+    <li>University of Marimont Dance Marathon</li>
+  </ul>
+  <h2>Contact</h2>
+  <p>Find me on Twitter, Dribbble, and GitHub.</p>
+
+  <h6>&copy; Copyright. All Rights Reserved.</h6>
+</body>
+
+</html>
+style.css
+.header {
+  background-color: Cornflowerblue;
+  text-align: center;
+}
+
+.about-me {
+  font-size: 20px;
+  opacity: 0.5;
+}
+.title {
+  font-weight: bold;
+}
+
+h1 {
+  color: Azure;
+}
+
+body {
+  font-family: Georgia;
+  background-image: url (https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png);
+}
+
+Project #7: Kelvin Weather
+app.js
+//
+const kelvin = 0;
+//
+const celsius = kelvin - 273;
+//
+let fahrenheit = celsius * (9 / 5) + 32;
+//
+fahrenheit = Math.floor(fahrenheit);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+// Convert to Newton
+let newton = celsius * (33 / 100);
+
+// Round down
+newton = Math.floor(newton);
+
+console.log(`The temperature is ${newton} degrees Newton.`);
+
+Project 8: Dog Years
+app.js
+// my current age
+const myAge = 35;
+// early years
+let earlyYears = 2;
+earlyYears *= 10.5;
+let laterYears = myAge - 2;
+laterYears *= 4;
+
+console.log(earlyYears);
+console.log(laterYears);
+let myAgeInDogYears = earlyYears + laterYears;
+
+let myName = "Bryce".toLowerCase();
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+
+Project #9: Magic Eight Ball
+main.js
+let userName = 'Bryce';
+userName ? console.log(`Hello, $userName`) :
+console.log("Hello!");
+let userQuestion = "Will I be married in the next 5 years?";
+console.log(`The user asked: ${userQuestion}`);
+let randomNumber = Math.floor(Math.random() * 8);
+let eightBall = '';
+
+switch(randomNumber){
+case 0:
+eightBall = 'It is certain';
+break;
+case 1:
+eightball = 'It is decidedly so';
+break;
+case 2:
+eightBall = 'Reply hazy try again';
+break;
+case 3:
+eightBall = 'Cannot predict now';
+break;
+case 4:
+eightBall = 'Do not count on it';
+break;
+case 5:
+eightBall = 'My sources say no';
+break;
+case 6:
+eightBall = 'Outlook not so good';
+break;
+case 7:
+eightball = 'Signs point to yes';
+break;
+
+}
+console.log(eightBall);
+
+Project #10: Race Day
+main.js
+let raceNumber = Math.floor(Math.random() * 1000);
+let early = true;
+let age = 18;
+
+if(early && age > 18){
+  raceNumber += 1000;
+}
+if(early && age > 18){
+  console.log(`Race will begin at 9:30, your race number is: ${raceNumber}.`)
+}
+else if(!early && age > 18){
+  console.log(`Race will begin at 11:00, your race number is ${raceNumber}.`)
+}
+else if(age < 18){
+  console.log(`Race will begin at 12:30, your race number is ${raceNumber}.`)
+}
+else{
+console.log(`Please approach the registration desk, thank you.`);
+}
+
+Project #11: Rock, Paper, or Scissors
+rockPaperScissors.js
+const getUserChoice = (userInput) => {
+  userInput = 
+  userInput.toLowerCase();
+if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors' || userInput === 'bomb'); {
+return userInput;
+} else {
+console.log (`Error, please type: rock, paper, or scissors.`)
+}
+
+}
+const getComputerChoice = () => {
+  const randomNumber = 
+  console.log(Math.floor(Math.random() * 1)
+  switch (randomNumber) {
+    case 0:
+return 'rock';
+case 1:
+return 'paper';
+case 2:
+return 'scissors';
+  }
+
+const determineWinner = (userChoice, computerChoice) => {
+  if (userChoice === computerChoice) {
+    return 'This game is a tie!';
+  }
+  if (userChoice === 'rock') {
+if (computerChoice === 'paper') {
+  return "Sorry, computer won!";
+} else {
+  return "Congratulations, you won!";
+}
+  }
+  if (userChoice === 'paper') {
+    return "Sorry, computer won!";
+ } else {
+   return "Congratulations, you won!";
+ }
+}
+if (userChoice === 'scissors'){
+  if (computerChoice === 'rock') {
+    return "Sorry, computer won!";
+  } else {
+    return "Congratulations, you won!";
+  }
+  if (userChoice === 'bomb'){
+return "Congratulations, you won!";
+  }
+}
+const playGame () => {
+  const userChoice = getUserChoice('paper');
+
+const computerChoice = getComputerChoice();
+console.log(`You Threw ' + userChoice);
+console.log('The computer threw ' + computerChoice)
+};
+console.log(determineWinner(userChoice, computerChoice));
+
+Project #12: Sleep Debt Calculator
+sleepDebtCalculator.js
+const getSleepHours = day => {
+if (day === 'Monday') {
+  return 8;
+} else if {
+  // continue else if's...
+  const getSleepHours = day => {
+    ...
+  }
+  const getActualSleepHours = () => {
+    getSleepHours('Monday') +
+    getSleepHours('Tuesday') +
+    getSleepHours('Wednesday') +
+    getSleepHours('Thursday') +
+    getSleepHours('Friday') +
+    getSleepHours('Saturday') +
+    getSleepHours('Sunday');
+  }
+  const getIdealSleepHours = () => {
+    const idealHours = 7.5;
+    return idealHours * 7;
+  }
+  const calculateSleepDebt = () => {
+    const actualSleepHours = getActualSleepHours();
+    const idealSleepHours = getIdealSleepHours();
+  }
+  if (actualSleepHours === idealSleepHours) {
+  console.log('...');
+} else if (actualSleepHours > idealSleepHours) {
+  console.log('You got ' + idealSleepHours - actualSleepHours) + 'hour(s) less sleep than you needed this week. Get some rest.');
+} else {
+  console.log('...');
+  
+}
+}
+};
+calculateSleepDebt();
+
+Project #13: The Box Model: Davie's Burgers
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Davie JR's Menu</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,500,700|Oswald:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation Section -->
+
+  <nav>
+    
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" />
+    
+    <span><a href="#">MENU</a></span>
+    <span><a href="#">NUTRITION</a></span>
+    <span><a href="#">ORDER</a></span>
+    <span><a href="#">LOCATIONS</a></span>
+  </nav>
+
+  <!-- Content Section -->
+
+  <div class="content">
+
+    <!-- Content Header -->
+    
+    <div class="header">
+      <h1>BBQ BACON BURGER</h1>
+    </div>
+
+    <!-- Content Body -->
+
+    <div class="body">
+      <p>
+        Our BBQ Bacon Burger features our special house ground blend of wagyu and sirloin, spiced perfectly, and finished off with just a drop of white truffle oil. A butter grilled brioche bun layered with roasted red onion, perfectly crispy pork belly, and our hickory smoked BBQ sauce.
+      </p>
+
+      <!-- Order Button -->
+
+      <a href="#" class="button">ORDER NOW</a>
+
+      <!-- Nutrition Information -->
+      
+      <ul class="nutrition">
+        <li>
+          <span class="category">CALORIES</span>
+          <span class="value">678</span>
+        </li>
+        <li>
+          <span class="category">FAT</span>
+          <span class="value">32</span>
+        </li>
+        <li>
+          <span class="category">PROTEIN</span>
+          <span class="value">8</span>
+        </li>
+        <li>
+          <span class="category">CARBOHYDRATES</span>
+          <span class="value">34</span>
+        </li>
+        <li>
+          <span class="category">SODIUM</span>
+          <span class="value">112</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+</body>
+</html>
+style.css
+width: 68%;
+  padding: 20px;
+  margin: 0px auto;
+
+}
+
+/* Content Body */
+
+.content .body {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.body p {
+  color: #333333;
+  font-weight: 100;
+  line-height: 34px;
+  width: 90%;
+  margin-top: 18px;
+}
+
+/* Content Button */
+
+.button {
+  border-radius: 4px;
+  color: #05A8AA;
+  display: block;
+  font-weight: 700;
+  width: 200px;
+  padding: 20px;
+  margin: 40px auto;
+  border: 1px solid blue;
+
+}
+
+.button:hover {
+  background-color: #05A8AA;
+  border: 1px solid #05A8AA;
+  color: #FFF;
+}
+
+/* Content Nutrition */
+
+ul.nutrition {
+  padding: 20px;
+
+}
+
+ul.nutrition li {
+  display: inline-block;
+  background-color: #05A8AA;
+  list-style: none;
+  width: 200px;
+  padding: 10px 20px;
+  margin-bottom: 3px;
+}
+
+.nutrition .category {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  display: block;
+}
+
+.nutrition .value {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+Project #14: Broadway
+index.html
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+    <link href='style.css' rel='stylesheet' type='text/css'/>
+  </head>
+
+  <body>
+    
+    <header>
+        <nav>
+          <ul>
+            <li> About </li> <li> Work </li> <li> Team </li> <li> Contact </li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+      <div class="jumbotron">
+        <div class="container">  
+          <h1>We are Broadway</h1>
+          <a href="#" class="btn-main"> Get Started </a>
+        </div>
+      </div>
+    </main>
+
+    <section class="supporting">
+      <div class="container">
+        
+        <div class="col">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/broadway/design.svg">
+          <h2>Design</h2>
+          <p>Make your projects look great and interact beautifully.</p>
+          <a href="#"> Learn More</a><br>
+        </div>
+        
+        <div class="col">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/broadway/develop.svg">
+          <h2>Develop</h2>
+          <p>Use modern tools to turn your design into a web site</p>
+          <a href="#"> Learn More</a><br>
+        </div>
+        
+        <div class="col">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/broadway/deploy.svg">
+          <h2>Deploy</h2>
+          <p>Use modern tools to turn your design into a web site</p>
+          <a href="#"> Learn More</a><br>
+        </div>
+        
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; Broadway 2017</p>
+      </div>
+    </footer>
+    
+  </body>
+</html>
+style.css
+ margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.jumbotron {
+  height: 800px;
+  background-image: url("http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;  
+  margin-bottom: 20px;      
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.supporting .col {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}
+
+.supporting img {
+  height: 32px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.supporting a {
+  background-color: white;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #333333; 
+}
+
+@media (max-width: 500px) {
+  main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+  }
+
+  .supporting .col {
+    width: 100%;
+  }
+}
+Project #15: Paint Store
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>House Store</title>
+  <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="image-container logo-small">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/logo-sm.png">
+    </div>
+    <div class="image-container logo-big">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/logo-lg.png">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Tools</a></li>
+        <li><a href="#">Lumber</a></li>
+        <li><a href="#">Paint</a></li>
+        <li><a href="#">Garden</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner -->
+  <div id="banner">
+    <h1>PAINTING IS SCARY</h1>
+    <p>But it doesn't have to be! Let our handy Virtual Paint Department help guide you through the process of choosing a color. Know the hue? You know what to do. Click the order button and we'll get the paint to you.</p>
+  </div>
+
+  <!-- Color Guide -->
+  <div id="color-guide">
+    <div class="introduction">
+      <h2>Color Guide</h2>
+      <p>Here at HouseStore, we take color seriously. In each of the following sections, well explore our base colors in swatches that incrementally change three values: <strong>Hue</strong>, <strong>Saturation</strong> and <strong>Lightness</strong>. You'll be able to pick from a wide variety of colors that all work well with each other because they <strong>stem from the same value.</strong></p>
+    </div>
+
+    <!-- Red Swatches -->
+    <div class="color reds">
+      <div class="information">
+        <h3>Reds</h3>
+        <p>Firetrucks, lipstick, fresh berries &mdash; red is a color with power, emotion, intensity. For this reason we recommend using reds as accent colors. Red is particularly suited to kitchens, as it is said to evoke hunger!</p><p>Our base red is <span class="base-color">HSL (350, 100, 50)</span></p>
+        <div class="image-container">
+          <img src="	https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/reds.png">
+        </div>
+      </div>
+      <div class="swatches">
+        <h4>Lightness</h4>
+        <div class="swatch lightness">
+          <div class="color-1"></div>
+          <div class="color-2"></div>
+          <div class="color-3"></div>
+          <div class="color-4"></div>
+          <div class="color-5"></div>
+        </div>
+        <h4>Saturation</h4>
+        <div class="swatch saturation">
+          <div class="color-1"></div>
+          <div class="color-2"></div>
+          <div class="color-3"></div>
+          <div class="color-4"></div>
+          <div class="color-5"></div>
+        </div>
+        <h4>Hue</h4>
+        <div class="swatch hue">
+          <div class="color-1"></div>
+          <div class="color-2"></div>
+          <div class="color-3"></div>
+          <div class="color-4"></div>
+          <div class="color-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Green Swatches -->
+    <div class="color greens">
+      <div class="information">
+        <h3>Greens</h3>
+        <p>They say that geniuses choose green &mdash; we think any of these verdant colors will look smart! Deck your halls like a lush outdoor space, adorn your rooms with emerald, or just make your houseguests green with envy!</p>
+        <p>Our base green is <span class="base-color">HSL (130, 100, 50)</span></p>
+        <div class="image-container">
+          <img src="	https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/greens.png">
+        </div>
+      </div>
+      <div class="swatches">
+        <h4>Lightness</h4>
+        <div class="swatch lightness">
+          <div class="color-1"></div>
+          <div class="color-2"></div>
+          <div class="color-3"></div>
+          <div class="color-4"></div>
+          <div class="color-5"></div>
+        </div>
+        <h4>Saturation</h4>
+        <div class="swatch saturation">
+          <div class="color-1"></div>
+          <div class="color-2"></div>
+          <div class="color-3"></div>
+          <div class="color-4"></div>
+          <div class="color-5"></div>
+        </div>
+        <h4>Hue</h4>
+        <div class="swatch hue">
+          <div class="color-1"></div>
+          <div class="color-2"></div>
+          <div class="color-3"></div>
+          <div class="color-4"></div>
+          <div class="color-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blue Swatches -->
+    <div class="color blues">
+      <div class="information">
+        <h3>Blues</h3>
+        <p>Blues dont give us the blues &mdash; in fact, blue is one of the most popular colors in home interiors, and for good reason! Energizing like a summer sky, calming like a lakeshore, light as mist or deep as indigo, blue can do it all.</p>
+        <p>Our base blue is <span class="base-color">HSL (220, 100, 50)</span></p>
+        <div class="image-container">
+          <img src="	https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/blues.png">
+        </div>
+      </div>
+      <div class="swatches">
+        <h4>Lightness</h4>
+        <div class="swatch lightness">
+          <div class="color-1"></div>
+          <div class="color-2"></div>
+          <div class="color-3"></div>
+          <div class="color-4"></div>
+          <div class="color-5"></div>
+        </div>
+        <h4>Saturation</h4>
+        <div class="swatch saturation">
+          <div class="color-1"></div>
+          <div class="color-2"></div>
+          <div class="color-3"></div>
+          <div class="color-4"></div>
+          <div class="color-5"></div>
+        </div>
+        <h4>Hue</h4>
+        <div class="swatch hue">
+          <div class="color-1"></div>
+          <div class="color-2"></div>
+          <div class="color-3"></div>
+          <div class="color-4"></div>
+          <div class="color-5"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <strong>All set? Click below to order.</strong>
+    <p>Most colors can be delivered to your door within 48 hours. We'll reach out if your color needs some extra attention, which could delay shipment.</p>
+    <a href="#" class="button">Order My Paint</a>
+  </footer>
+</body>
+</html>
+style.css
+.color .swatch {
+  display: flex;
+  height: 6.6875rem;
+  border: 10px solid #e6e6e6;
+  margin-bottom: 1.25rem;
+}
+
+.color .swatch:last-child {
+  margin-bottom: 0;
+}
+
+.color .swatch > div {
+  flex-grow: 1;
+  border-right: 10px solid #e6e6e6;
+}
+
+.color .swatch > div:last-child {
+  border-right: 0;
+}
+
+@media only screen and (max-width: 820px) {
+  #color-guide .color {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .color .information {
+    width: 100%;
+    margin-bottom: 3rem;
+    align-items: center;
+  }
+
+  .color .information h3 {
+    padding-bottom: 1.5rem;
+  }
+
+  .color .information p {
+    margin-bottom: 2rem;
+  }
+
+  .color .swatches {
+    width: 100%;
+  }
+}
+
+/* Red Swatches */
+
+.reds .base-color {
+  color: hsl(350, 100%, 50%);
+}
+
+/* Red lightness decreases by 15 */
+.reds .lightness .color-1 {
+background-color: hsl(350, 100%, 80%);
+}
+
+.reds .lightness .color-2 {
+  background-color: hsl(350, 100%, 65%);
+}
+
+.reds .lightness .color-3 {
+  background-color: hsl(350, 100%, 50%);
+}
+
+.reds .lightness .color-4 {
+  background-color: hsl(350, 100%, 35%);
+}
+
+.reds .lightness .color-5 {
+  background-color: hsl(350, 100%, 20%);
+}
+
+/* Red saturation decreases by 15 */
+.reds .saturation .color-1 {
+background-color: hsl(350, 100%, 80%)
+}
+
+.reds .saturation .color-2 {
+  background-color: hsl(350, 85%, 50%);
+}
+
+.reds .saturation .color-3 {
+  background-color: hsl(350, 70%, 50%);
+}
+
+.reds .saturation .color-4 {
+  background-color: hsl(350, 55%, 50%);
+}
+
+.reds .saturation .color-5 {
+  background-color: hsl(350, 40%, 50%);
+}
+
+/* Red hue increases by 15 */
+.reds .hue .color-1 {
+background-color: hsl(320, 100%, 80%);
+}
+
+.reds .hue .color-2 {
+  background-color: hsl(335, 100%, 50%);
+}
+
+.reds .hue .color-3 {
+  background-color: hsl(350, 100%, 50%);
+}
+
+.reds .hue .color-4 {
+  background-color: hsl(5, 100%, 50%);
+}
+
+.reds .hue .color-5 {
+  background-color: hsl(20, 100%, 50%);
+}
+
+/* Green Swatches */
+
+.greens .base-color {
+  color: hsl(130, 100%, 50%);
+}
+
+/* Green lightness decreases by 20 */
+.greens .lightness .color-1 {
+background-color: hsl(103, 100%, 90%);
+}
+
+.greens .lightness .color-2 {
+  background-color: hsl(103, 100%, 70%);
+}
+
+.greens .lightness .color-3 {
+  background-color: hsl(103, 100%, 50%);
+}
+
+.greens .lightness .color-4 {
+  background-color: hsl(103, 100%, 30%);
+}
+
+.greens .lightness .color-5 {
+  background-color: hsl(104, 100%, 10%);
+}
+
+/* Green saturation decreases by 20 */
+.greens .saturation .color-1 {
+background-color: hsl(130, 100%, 50%);
+}
+
+.greens .saturation .color-2 {
+  background-color: hsl(130, 80%, 50%);
+}
+
+.greens .saturation .color-3 {
+  background-color: hsl(130, 60%, 50%);
+}
+
+.greens .saturation .color-4 {
+  background-color: hsl(130, 40%, 50%);
+}
+
+.greens .saturation .color-5 {
+  background-color: hsl(131, 20%, 50%);
+}
+
+/* Green hue increases by 22 */
+.greens .hue .color-1 {
+background-color: hsl(86, 100%, 50%);
+}
+
+.greens .hue .color-2 {
+  background-color: hsl(108, 100%, 50%);
+}
+
+.greens .hue .color-3 {
+  background-color: hsl(130, 100%, 50%);
+}
+
+.greens .hue .color-4 {
+  background-color: hsl(152, 100%, 50%);
+}
+
+.greens .hue .color-5 {
+  background-color: hsl(174, 100%, 50%);
+}
+
+/* Blue Swatches */
+
+.blues .base-color {
+  color: hsl(220, 100%, 50%);
+}
+
+/* Blue lightness decreases by 20 */
+.blues .lightness .color-1 {
+background-color: hsl(220, 100%, 90%);
+}
+
+.blues .lightness .color-2 {
+  background-color: hsl(220, 100%, 70%);
+}
+
+.blues .lightness .color-3 {
+  background-color: hsl(220, 100%, 50%);
+}
+
+.blues .lightness .color-4 {
+  background-color: hsl(220, 100%, 30%);
+}
+
+.blues .lightness .color-5 {
+  background-color: hsl(220, 100%, 10%);
+}
+
+/* Blue saturation decreases by 20 */
+.blues .saturation .color-1 {
+background-color: hsl(220, 100%, 50%);
+}
+
+.blues .saturation .color-2 {
+  background-color: hsl(220, 80%, 50%);
+}
+
+.blues .saturation .color-3 {
+  background-color: hsl(220, 60%, 50%);
+}
+
+.blues .saturation .color-4 {
+  background-color: hsl(220, 40%, 50%);
+}
+
+.blues .saturation .color-5 {
+  background-color: hsl(220, 20%, 50%);
+}
+
+/* Blue hue decreases by 20 */
+.blues .hue .color-1 {
+background-color: hsl(260, 100%, 50%);
+}
+
+.blues .hue .color-2 {
+  background-color: hsl(240, 100%, 50%);
+}
+
+.blues .hue .color-3 {
+  background-color: hsl(220, 100%, 50%);
+}
+
+.blues .hue .color-4 {
+  background-color: hsl(200, 100%, 50%);
+}
+
+.blues .hue .color-5 {
+  background-color: hsl(180, 100%, 50%);
+}
+
+/* Footer */
+
+footer {
+  position: relative;
+  height: 30rem;
+  padding: 7.8125rem 30% 0 30%;
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/footer.png") center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  color: white;
+}
+
+footer:before { /* Overlay */
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+background-color: rgba(0, 0, 0, 0.7);
+}
+
+footer * {
+  position: relative; /* Makes elements display above overlay. */
+}
+
+footer strong {
+  display: block;
+  margin-bottom: 1.25rem;
+  font-size: 2.25rem;
+}
+
+footer p {
+  margin-bottom: 4.3125rem;
+}
+
+footer .button {
+  padding: 1.25rem 3.75rem;
+  border-radius: 4px;
+  background-color: #ff8000;
+}
+
+@media only screen and (max-width: 560px) {
+  footer {
+    padding: 4.8125rem 15% 0 15%;
+  }
+}
+
+Project #16: Typography
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Morocco</title>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <nav class="header">
+    <span class="logo">AOFIE CONLEAVY</span>
+    <ul>
+      <li><a href="#">TRAVELS</a></li>
+      <li><a href="#">FICTION</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <!-- Banner -->
+  <div class="banner">
+    <h2>DEC 20XX</h2>
+    <h1>Morocco</h1>
+  </div>
+
+  <!-- Journal -->
+  <div class="journal">
+    <div class="first photo">
+      <div class="image-container">
+        <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/project-morocco/photo1.png">
+      </div>
+      <span class="caption">A convoy of camels criss-crossing the crests of the Sahara</span>
+    </div>
+    <p>
+      <span class="first-letter">I</span> am in the Great Sahara Desert for the third sundown in a row. Fouad and I pass back and forth a sun-bleached map of the stars. It’s more of a tug-of-war to be honest. With what remains of the daylight, we commit to memory the positions of spots on the page. We hope to find some correlation in its negative, which slides overhead as the sun rapidly dies.
+    </p>
+    <p>
+      "Navigating by night is always easier." Fouad flicks these English words as ash from a cigarette. "You’ll see."
+    </p>
+    <p>
+      "We won't see anything. That's my point!"
+    </p>
+    <p>
+      How did we get here?
+    </p>
+    <p>
+      It started eight days ago when I arrived in Malilla on the boat from Malaga. The sun hit me like a judgement as I stepped onto the gangplank. A bit about Morocco:  
+    </p>
+    <div class="photo">
+      <div class="image-container">
+        <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/project-morocco/photo2.png">
+      </div>
+      <span class="caption">The long and winding road to Merrakec</span>
+    </div>
+    <p>
+      Morocco has a population of over 33.8 million and an area of 446,550 km2 (172,410 sq mi). Its capital is Rabat, and the largest city is Casablanca. Other major cities include Marrakesh, Tangier, Tetouan, Sale, Fes, Agadir, Meknes, Oujda, Kenitra, and Nador. A historically prominent regional power, Morocco has a history of independence not shared by its neighbours.
+    </p>
+    <span class="quote">"Navigating by night is always easier."</span>
+    <p>
+      Since the foundation of the first Moroccan state by Idris I in 789, the country has been ruled by a series of independent dynasties, reaching its zenith under the Almoravid and Almohad dynasty, spanning parts of Iberia and Northwestern Africa. Marinid and Saadi dynasties continued the struggle against foreign domination, and Morocco remained the only North-African country to avoid Ottoman occupation. 
+    </p>
+    <p>
+      The Alaouite dynasty, the current ruling dynasty, seized power in 1666. In 1912 Morocco was be divided into a French and Spanish protectorates, with an international zone in Tangier, and regained its independence in 1956. Moroccan culture is a blend of Arab, indigenous Berber, Sub-Saharan African, and European influences.
+    </p>
+    <div class="photo">
+      <div class="image-container">
+        <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/project-morocco/photo3.png">
+      </div>
+      <span class="caption">A stall at the Jemaa El Fnaa street market</span>
+    </div>
+    <p>
+      Morocco claims the non-self-governing territory of Western Sahara as its Southern Provinces. Morocco annexed the territory in 1975, leading to a guerrilla war with indigenous forces until a cease-fire in 1991. Peace processes have thus far failed to break the political deadlock.
+    </p>
+    <p>
+      Morocco is a constitutional monarchy with an elected parliament. The King of Morocco holds vast executive and legislative powers, especially over the military, foreign policy and religious affairs. Executive power is exercised by the government, while legislative power is vested in both the government and the two chambers of parliament, the Assembly of Representatives and the Assembly of Councillors. The king can issue decrees called dahirs which have the force of law. He can also dissolve the parliament after consulting the Prime Minister and the president of the Constitutional court.
+    </p>
+    <span class="quote">“Navigating by night is always easier.”</span>
+    <p>
+      Morocco's predominant religion is Islam, and the official languages are Arabic and Tamazight. Moroccan dialect, referred to as Darija, and French are also widely spoken. Morocco is an influential member of the Arab League and a part of the Union for the Mediterranean. It has the fifth largest economy of Africa.
+    </p>
+    <div class="photo">
+      <div class="image-container">
+        <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/project-morocco/photo4.png">
+      </div>
+      <span class="caption">The desert at night is strange and beautiful</span>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="image-container">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/project-morocco/author.png">
+    </div>
+    <div class="content">
+      <p>
+        <span class="author">Aoife Donleavy</span> has been writing on her travels for over two decades.
+        After graduating from the <em>Idaho Writers' Workshop</em>, she piloted a biplane on a two-year voyage from <em>Anchorage</em>, <em>Alaska</em> to <em>Isafjorour</em>, <em>Iceland</em> stopping along the way for adventures throughout Europe.
+      </p>
+      <p>
+        Since then, she has camped on all seven continents, and has been recognized worldwide for her spare, ageless prose. Aoife's new novel, <em>Tide Blade</em>, is currently available from <em>Walrus Publishing</em>. 
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
+style.css
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  padding: 0 1%;
+  background-color: #212121;
+  font-family: "Croissant One","Merriweather", serif;
+}
+
+footer .image-container {
+  width: 400px;
+}
+
+footer .content {
+  flex-grow: 1;
+  font-style: italic;
+  color: #9b9b9b;
+  line-height: 1.5;
+}
+
+footer p {
+  padding-bottom: 1.66rem;
+}
+
+footer p:last-child {
+  padding-bottom: 0;
+}
+
+footer .author {
+  color: #ffb78c;
+}
+
+footer em {
+  color: #cfcfcf;
+}
+
+@media only screen and (max-width: 750px) {
+  footer {
+    flex-direction: column;
+    padding: 0 10% 2rem 10%;
+  }
+
+  footer .image-container {
+    height: 300px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+}
+
+Project #17: Tsunami Coffee
+index.html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tsunami Coffee</title>
+  <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+</head>
+
+<body>
+  <div class="main">
+    <nav class="container">
+      <ul>
+        <li>Store</li>
+        <li>Hours</li>
+        <li>Wholesale</li>
+      </ul>
+    </nav>
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tsunami-coffee/images/logo.png" />
+  </div>
+
+  <div class="container supporting">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tsunami-coffee/images/beans.png" />
+    <div class="description">
+      <h2>Great coffee does not happen by accident.</h2>
+      <p>We work side by side with farmers around the world to strengthen farming practices to cultivate the best coffee beans in the world. Then, we train our baristas in the sacred art of the brew process, yielding the most flavorful coffee you’ve ever tasted.
+      </p>
+      <p>Tsunami Coffee is certified organic and fair trade.</p>
+    </div>
+  </div>
+
+  <div class="rating">
+    <div class="container">
+      <h1>9.4/10: A rush of flavors. Absolutely divine.</h1>
+      <p>~ Coffee Critic</p>
+    </div>
+  </div>
+
+  <div class="container gallery">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tsunami-coffee/images/latte.png" />
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tsunami-coffee/images/coffee-man.png" />
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tsunami-coffee/images/pastries.png" />
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="container location">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tsunami-coffee/images/map.png" />
+    <h1>Brewed with love in San Francisco.</h1>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="copyright">
+        &copy; Tsunami Coffee
+      </div>
+
+      <nav>
+        <ul>
+          <li>Store</li>
+          <li>Hours</li>
+          <li>Wholesale</li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+
+</html>
+style.css
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.main {
+  height: 30rem;
+  padding-top: 1rem;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tsunami-coffee/images/bg-photo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main img {
+  width: 15rem;
+  display: block;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+nav {
+  background-color: OrangeRed;
+  color: White;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+}
+
+.supporting,
+.rating,
+.gallery,
+.location {
+  margin: 4em auto;
+}
+
+.supporting {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 1rem;
+}
+
+.supporting img {
+width: 10%;
+margin-right: 5%;
+}
+
+.rating {
+  background-color: OrangeRed;
+  height: 20rem;
+  padding: 0 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating h1 {
+font-size: 2.5rem;
+}
+
+.gallery img {
+  display: block;
+  width: 30%;
+  margin: 1.5%;
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.location {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.location img {
+width: 100%;
+}
+
+footer {
+  background-color: OrangeRed;
+  padding: 0 1rem;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5em 0;
+  color: white;
+}
+@media only screen and (max-width: 960px) {
+  .main {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+ .supporting img {
+   display: none;
+ }
+}
+
+@media only scren and (max-width: 470px) {
+  .rating h1 {
+    font-size: 2rem;
+  }
+}
+
+.gallery img {
+  width: 100%;
+  margin: 0;
+}
+footer nav {
+  display: none;
+}
+Project #18: Flexbox: To-Do App
+index.html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>To Do App</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+
+  <div id="header">
+    <h1>To Do or Not To Do</h1>
+    <h2 class="tagline">(your priorities at a glance)</h2>
+  </div>
+
+  <!-- App Container -->
+
+  <div class="container">
+
+    <!-- To Do Section -->
+
+    <div class="week">
+      <div class="row secondary-background">
+        <div class="day square"><h3>MON</h3></div>
+        <div class="task square">
+          <p> Insert some information about your week here :) </p>
+        </div>
+        <div class="task square"></div>
+        <div class="task square"></div>
+      </div>
+      <div class="row">
+        <div class="day square"><h3>TUE</h3></div>
+        <div class="task square"></div>
+        <div class="task square"></div>
+        <div class="task square"></div>
+      </div>
+      <div class="row secondary-background">
+        <div class="day square"><h3>WED</h3></div>
+        <div class="task square"></div>
+        <div class="task square"></div>
+        <div class="task square"></div>
+      </div>
+      <div class="row">
+        <div class="day square"><h3>THU</h3></div>
+        <div class="task square"></div>
+        <div class="task square"></div>
+        <div class="task square"></div>
+      </div>
+      <div class="row secondary-background">
+        <div class="day square"><h3>FRI</h3></div>
+        <div class="task square"></div>
+        <div class="task square"></div>
+        <div class="task square"></div>
+      </div>
+    </div>
+
+    <!-- Reminders Section -->
+
+    <div class="reminders">
+      <h3>Reminders</h3>
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  <footer>
+    <span class="tagline">copyright nottodo.com</span>
+  </footer>
+</body>
+</html>
+style.css
+/* Universal Styles */
+
+body {
+  margin: 0px;
+  background-color: WhiteSmoke;
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+}
+
+.secondary-background {
+  background-color: Snow;
+}
+
+.tagline {
+  font-family: 'Quicksand', sans-serif;
+  color: LightSlateGrey;
+  line-height: 125px;
+}
+
+/* Header */
+
+h1 {
+  margin: 0;
+  background-color: SkyBlue;
+  line-height: 100px;
+  color: Khaki;
+}
+
+h2 {
+  margin: 10px;
+}
+
+/* App Container */
+
+.container {
+  display: flex;
+  border: 2px solid Snow;
+}
+
+/* To Do Section */
+
+.week {
+  display: inline-flex;
+  flex-grow: 3;
+  flex-direction: column;
+}
+
+.row {
+  min-height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: row;
+}
+
+.square {
+  width: 125px;
+  height: 125px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day.square {
+  background-color: SkyBlue;
+  border: 1px solid white;
+}
+
+.task.square {
+  background-color: Khaki;
+  border: 1px solid white;
+}
+
+.task p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+/* Reminders */
+
+.reminders {
+  display: inline-flex;
+  background-color: Khaki;
+  flex-grow: 2;
+}
+
+.reminders h3 {
+  width: 100%;
+  margin: 10px;
+  color: black;
+  line-height: 90px;
+  font-size: 24px;
+}
+
+/* Footer */
+
+footer {
+  font-size: 24px;
+}
+
+Project #19: Tea Cozy
+index.html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>The Tea Cozy</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header class="flex-container">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-tea-cozy-logo.png" />
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg" />
+ 
+    <nav>
+      <span><a href="#mission">Mission</a></span>
+      <span><a href="#store">Featured Tea</a></span>
+      <span><a href="#locations">Locations</a></span>
+    </nav>
+  </header>
+
+  <!-- Main Content Container -->
+<img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg"/>
+<img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg"/>
+<img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg"/>
+<img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg"/>
+<img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg"/>
+
+  <div class="main">
+
+    <!-- Mission Section -->
+
+    <div id="mission" class="flex-container">
+      <div class="content">
+        <h2>Our Mission</h2>
+        <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+      </div>
+    </div>
+
+    <!-- Store Section -->
+
+    <div id="store">
+      <h2>Tea of the Month</h2>
+      <h4>What's Steeping at The Tea Cozy?</h4>
+      <div class="flex-container items">
+        <div class="item">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg" />
+          <span>Fall Berry Blitz Tea</span>
+        </div>
+        <div class="item">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg" />
+          <span>Spiced Rum Tea</span>
+        </div>
+        <div class="item">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg" />
+          <span>Seasonal Donuts</span>
+        </div>
+        <div class="item">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg" />
+          <span>Myrtle Ave Tea</span>
+        </div>
+        <div class="item">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg" />
+          <span>Bedford Bizarre Tea</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Locations Section -->
+
+    <div id="locations">
+      <h2>Locations</h2>
+      <div class="flex-container locations">
+        <div class="location">
+          <h3>Downtown</h3>
+          <p>384 West 4th St</p>
+          <p>Suite 108</p>
+          <p>Portland, Maine</p>
+        </div>
+        <div class="location">
+          <h3>East Bayside</h3>
+          <p>3433 Phisherman's Avenue</p>
+          <p>(Northwest Corner)</p>
+          <p>Portland, Maine</p>
+        </div>
+        <div class="location">
+          <h3>Oakdale</h3>
+          <p>515 Crescent Avenue</p>
+          <p>Second Floor</p>
+          <p>Portland, Maine</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+      <h2>The Tea Cozy</h2>
+      <h5>contact@theteacozy.com</h5>
+      <h5>917-555-8904</h5>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <h5>copyright The Tea Cozy 2017</h5>
+    </footer>
+  </body>
+</html>
+style.css
+/* Universal Styles */
+
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header Section */
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Main Section */
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission Section */
+
+#mission {
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+/* Store Section */
+
+#store {
+  height: 700px;
+  width: 500px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Location Section */
+
+.flex-container.locations {
+  padding-top: 5px;
+}
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
+
+#locations .flex-container {
+  margin: auto;
+  width: 1100px;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Contact Section */
+
+#contact {
+  height: 300px;
+  
+}
+
+/* Footer Section */
+
+footer {
+  text-align: center;
+  padding-left: 20px;
+}
+
+Project #20: Training Days
+trainingDays.js
+// The scope of `random` is too loose 
+
+
+const getRandEvent = () => {
+  const random = Math.floor(Math.random() * 3);
+  if (random === 0) {
+    return 'Marathon';
+  } else if (random === 1) {
+    return 'Triathlon';
+  } else if (random === 2) {
+    return 'Pentathlon';
+  }
+};
+
+// The scope of `days` is too tight 
+const getTrainingDays = event => {
+let days;
+  if (event === 'Marathon') {
+    days = 50;
+  } else if (event === 'Triathlon') {
+    days = 100;
+  } else if (event === 'Pentathlon') {
+    days = 200;
+  }
+
+  return days;
+};
+const name = 'Nala';
+// The scope of `name` is too tight 
+const logEvent = (name,event) => {
+
+  console.log(`${name}'s event is: ${event}`);
+};
+
+const logTime = (name,days) => {
+ 
+  console.log(`${name}'s time to train is: ${days} days`);
+};
+
+const event = getRandEvent();
+const days = getTrainingDays(event);
+// Define a `name` variable. Use it as an argument after updating logEvent and logTime 
+
+
+logEvent(name,event);
+logTime(name,days);
+
+const event2 = getRandEvent();
+const days2 = getTrainingDays(event2);
+const name2 = 'Warren';
+
+logEvent(name2, event2);
+logTime(name2, days2);
+
+Project #21: Secret Message
+app.js
+let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get', 'easily', 'the', 'first', 'time,', 'it', 'is', 'about', 'what', 'you', 'can', 'figure', 'out.', '-2015,', 'Chris', 'Pine,', 'Learn', 'JavaScript'];
+
+
+secretMessage.pop();
+console.log(secretMessage.length);
+
+secretMessage.push('to', 'Program');
+
+secretMessage[7] = 'right';
+
+secretMessage.shift();
+
+secretMessage.unshift('Programming');
+
+secretMessage.splice(6, 5, 'know');
+
+console.log(secretMessage.join(' '));
+
+Project #22: Whale Talk
+main.js
+const input = 'turpentine and turtles';
+const vowels = ['a', 'e', 'i', 'o', 'u'];
+let resultArray = [];
+for (let inputIndex = 0; inputIndex < input.length; inputIndex++) {
+  //console.log('inputIndex = ' + inputIndex);
+  for(let vowel = 0; vowel < vowels.length; vowel++) {
+   if (input[inputIndex] === vowels[vowel]) {
+   if (input[inputIndex] === 'e') {
+    resultArray.push('ee');
+   }  
+   else if(input[InputIndex] === 'u') {
+     resultArray.push('uu');
+   }
+   else {
+     resultArray.push(input[inputIndex]);
+   }
+   }
+  }
+}
+console.log(resultArray.join('').toUpperCase());
+
+Project #23: Mini Linter
+main.js
+let story = 'Last weekend, I took literally the most beautiful bike ride of my life. The route is called "The 9W to Nyack" and it actually stretches all the way from Riverside Park in Manhattan to South Nyack, New Jersey. It\'s really an adventure from beginning to end! It is a 48 mile loop and it basically took me an entire day. I stopped at Riverbank State Park to take some extremely artsy photos. It was a short stop, though, because I had a really long way left to go. After a quick photo op at the very popular Little Red Lighthouse, I began my trek across the George Washington Bridge into New Jersey.  The GW is actually very long - 4,760 feet! I was already very tired by the time I got to the other side.  An hour later, I reached Greenbrook Nature Sanctuary, an extremely beautiful park along the coast of the Hudson.  Something that was very surprising to me was that near the end of the route you actually cross back into New York! At this point, you are very close to the end.';
+
+let overusedWords = ['really', 'very', 'basically'];
+
+let unnecessaryWords = ['extremely', 'literally', 'actually' ];
+
+let storyWords = story.split(' ');
+//console.log(storyWords.length);
+let betterWords = storyWords.filter(function(word) {
+  return !unnecessaryWords.includes(word)
+}) 
+//console.log(betterWords);
+
+let sentencesCount = 0;
+for (word of storyWords) {
+
+  if (word[word.length - 1] === ".") || word[word.length - 1] === "!"); { sentencesCount += 1
+}
+console.log("Word count" storyWords.length)
+console.log("Sentences count" sentencesCount);
+console.log("really", reallyCount);
+console.log("very", veryCount);
+console.log("basically," basicallyCount);
+
+Project #24: Meal Maker
+app.js
+const menu = {
+  _courses: {}
+appetizers: [],
+mains: [],
+desserts: [],
+
+  },
+  get appetizers() {
+    return 
+    appetizers: this.appetizers,
+  },
+  get mains() {
+    return
+    mains: this.mains,
+  },
+  get desserts() {
+    return
+    desserts: this.desserts,
+  },
+  set appetizers(appetizers) {
+    this._courses.appetizers = appetizers;
+  },
+  set mains(mains) {
+    this._courses.mains = mains;
+  },
+  set desserts(desserts) {
+    this._courses.desserts = desserts;
+  },
+  get courses() {
+return {
+  appetizers: this.appetizers,
+  mains: this.mains,
+  desserts: this.desserts,
+}
+  }
+  addDishToCourse (courseName, dishName, dishPrice) {
+name: dishName,
+price: dishPrice,
+return this._courses[courseName].push(dish);
+  }
+getRandomDishFromCourse(courseName) {
+  const dishes = this._courses[courseName];
+  const randomIndex = Math.floor(Math.random() * dishes.length);
+  return dishes[randomIndex];
+}
+generateRandomMeal() {
+  const appetizer = this.getRandomDishFromCourse('appetizers');
+  const main = this.getRandomDishFromCourse('mains');
+  const dessert = this.getRandomDishFromCourse('desserts');
+  const totalPrice = appetizer.price + main.price + dessert.price;
+return `Your meal is ${appetizer.name}, ${main.name}, ${dessert.name}, The price is ${totalPrice}.`;
+}
+};
+menu.addDishToCourse('appetizers', 'salad', 4.00);
+menu.addDishToCourse('appetizers', 'wings', 5.00);
+menu.addDishToCourse('appetizers', 'fries', 6.00);
+
+menu.addDishToCourse('mains', 'fish', 8.00);
+menu.addDishToCourse('mains', 'steak', 9.00);
+menu.addDishToCourse('mains', 'lobster', 12.00);
+
+menu.addDishToCourse('desserts', 'pie', 3.50);
+menu.addDishToCourse('desserts', 'ice cream', 4.50);
+menu.addDishToCourse('desserts', 'cake', 3.00);
+let meal = menu.generateRandomMeal();
+console.log(meal);
+
+Project #25: Team Stats
+app.js
+const team = {
+
+_players: [
+  {firstName: 'Ethan', lastName: 'Thompson', age: 22},
+    {firstName: 'Tyler', lastName: 'Curtis', age: 24},
+    {firstName: 'James', lastName: 'Smith', age: 25}
+],
+_games: [
+{opponent: 'Broncos', teamPoints: 42, opponentPoints: 27},
+{opponent: 'Wolverines', teamPoints: 39, opponentPoints: 54},
+{opponent: 'Lions', teamPoints: 49, opponentPoints: 35},
+],
+get players() {
+  return this._players;
+},
+get games() {
+  return this._games;
+},
+addPlayer(firstName, lastName, age) {
+let player = {
+  firstName: firstName,
+  lastName: lastName,
+  age: age
+},
+this.players.push(player);
+},
+addGame(oppName, points, oppPoints){
+  const game = {
+    opponent: oppName,
+    points: points,
+    opponentPoints: oppPoints
+  }
+this.game.push(game);
+}
+team.addPlayer('Steph', 'Curry', 28);
+team.addPlayer('Lisa', 'Leslie', 44);
+team.addPlayer('Bugs', 'Bunny', 76);
+
+
+team.addGame('Broncos', 45, 67);
+team.addGame('Wolverines', 95, 88);
+team.addGame('Lions', 93, 82);
+
+console.log(team.games);
+
+Project #26: Lodash
+_.js
+const _ = {
+
+  clamp(number, lower, upper){
+    var lowerClampedValue = Math.max(number, lower);
+    var clampedValue = Math.min(lowerClampedValue, upper);
+    return clampedValue;
+  }
+  inRange(number, start, end){
+    if(end === undefined) {
+      end = start
+      start = 0
+    }if (start > end){
+      var temp = end
+      end = start
+      start = temp
+    
+    
+  var inInRange = start <= number && number < end
+  return isInRange
+  },
+  words(string){
+    var words = string.split(' ');
+    return words;
+
+  }
+  pad(string.length){
+    if(string.length >= length){
+      return string;
+    }
+  }
+    const startPaddingLength = math.floor((length - string.length) / 2);
+    const endPaddingLength = length - string.length - startPaddingLength;
+
+    const paddedString = ' '.repeat(startPaddedLength) + string + ' '.repeat(endPaddedLangth);
+    return paddedString;
+  }
+  has(object, key){
+    const hasValue= object[key];
+    if (hasValue !=undefined){
+      return true;
+    } return false;
+  }
+  invert(object){
+    let invertedObject  = {};
+    for (let key in object){
+      const originalValue = object[key];
+      invertedObject = {originalValue : key}
+    }
+    return invertedObject;
+  }
+  findKey(object, predicate){
+    for(let key in object){
+      let value = object[key];
+      letPredicateReturnValue = predicate(value);
+      if(predicateReturnValue){
+        return key;
+      }
+      undefined
+      return undefined;
+    }
+  drop(array, n){
+    if(n === undefined) {
+      n = 1;
+    }
+    let droppedArray = array.slice(n, array.length);
+    return droppedArray;
+  }
+  dropWhile(array, predicate){
+    const cb = (element, index) => {
+      return !predicate(element, index, array);
+    }
+    let dropNumber = array.findIndex(cb);
+    let droppedArray = this.drop(array, dropNumber);
+    return droppedArray;
+  }
+  chunk(array, size = 1){
+    let arrayChunks = [];
+    for (let i = 0; i < array.length; i += size){
+      let arrayChunk = array.slice(i, i+size);
+      arrayChunks.push(arrayChunk);
+    }
+  return arrayChunks
+  }
+  }
+  };
+
+// Do not write or modify code below this line.
+module.exports = _;
+
+Project #27: Chore Door
+index.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chore Door!</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+<div class="header">
+  <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/logo.svg">
+  <div class="title-row">
+    <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg">
+    <p class="instructions-title">Instructions</p>
+    <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg">
+  </div>
+  <table class="instrcutions-row">
+  <tr>
+    <td class="instructions-number">1 </td>
+    <td class="instructions-text">Hiding behind one of these doors is the ChoreBot. </td>
+  </tr>
+  <tr>
+    <td class="instructions-number">2 </td>
+    <td class="instructions-text">Your mission is to open all of the doors without running into the ChoreBot. </td>
+  </tr>
+  <tr>
+    <td class="instructions-number">3 </td>
+    <td class="instructions-text">If you manage to avoid the ChoreBot until you open the very last door, you win! </td>
+  </tr>
+  <tr>
+    <td class="instructions-number">4 </td>
+    <td class="instructions-text">See if you can score a winning streak! </td>
+  </tr>
+</table>
+  <div class="door-row">
+  <img id="door-1" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg"> 
+  <img id="door-2" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg"> 
+  <img id="door-3" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg"> 
+</div>
+<div>
+  <div id="start">Good luck! </div>
+<script type="text/javascript" src="script.js"></script>
+
+
+  </body>
+</html>
+style.css
+body {
+  background-color: #010165;
+  margin: 0px;
+}
+
+
+.door-frame {
+  cursor: pointer;
+  padding: 10px;
+}
+.header {
+  background-color: #00ffff;
+  text-align: center;
+}
+
+.title-row {
+  margin-top: 42px;
+  margin-bottom: 21px;
+  text-align: center;
+}
+
+.instructions.title{
+  display: inline;
+  font-size: 18px;
+  color: #00ffff;
+  font-family: 'Work Sans';
+}
+
+.instructions-row {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.instructions-number {
+  padding-right: 25px;
+  font-family: 'Work Sans';
+  font-size: 36px;
+  color: #00ffff;
+}
+
+.instructions-text {
+  padding: 10px;
+  font-family: 'Work Sans';
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.door-row {
+  text-align: center;
+}
+
+#start-row {
+  margin: auto;
+  width: 120px;
+  height: 43px;
+  font-family: 'Work Sans';
+  background-color: #eb6536;
+  padding-top: 18px;
+  font-size: 18px;
+  text-align: center;
+  color: #010165;
+  margin-bottom: 21px;
+  cursor: pointer;
+}
+script.js
+let doorImage1 = document.getElementById('door1');
+let doorImage2 = document.getElementById('door2');
+let doorImage3 = document.getElementById('door3');
+let startButton = document.getElementById('start');
+let botDoorPath="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/robot.svg";
+let beachDoorPath="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/beach.svg";
+let spaceDoorPath="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/space.svg";
+let closedDoorPath ="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg";
+let numClosedDoors = 3;
+let openDoor1;
+let openDoor2;
+let openDoor3;
+let currentlyPlaying = true;
+
+
+const isBot = (door) => {
+  if(door.src === botDoorPath) {
+    return true;
+  } else {
+    return false;
+}
+const isClicked = (door) => {
+  if (door.src === closedDoorPath) {
+  return false;
+} else {
+  return true;
+}
+}
+const playDoor = () => {
+numCosedDoors--;
+if (numClosedDoors === 0) {
+  gameOver('win');
+} else if (isBot(door)) {
+  gameOver('lose');
+} 
+}
+const randomChoreGenerator = () => {
+const choreDoor = Math.floor(Math.random() * numClosedDoors);
+if(choreDoor === 0) {
+openDoor1=botDoorPath;
+openDoor2=beachDoorPath;
+openDoor3=spaceDoorPath;
+} else if (choreDoor === 1) { 
+openDoor2=botDoorPath;
+openDoor1=beachDoorPath;
+openDoor3=spaceDoorPath;
+} else { (choreDoor === 2)
+openDoor3=botDoorPath; 
+openDoor1=beachDoorPath;
+openDoor3=spaceDoorPath;
+}
+}
+door1.onclick = () => {
+  if(currentlyPlaying && !isClicked(door1)) {
+ 
+
+doorImage1.src=openDoor1;
+playDoor(door1);
+}
+}
+door2.onclick = () => {
+  if(currentlyPlaying && !isClicked(door2)) {
+ 
+
+doorImage2.src=openDoor2;
+playDoor(door2);
+}
+}
+door3.onclick = () => {
+  if(currentlyPlaying && !isClicked(door3)) {
+
+
+  doorImage3.src=openDoor3;
+  playDoor(door3);
+}
+}
+startButton.onclick = () => {
+  if(!currentlyPlaying) {
+
+
+  startRound();
+}
+}
+const startRound = () => {
+  door1.src = closedDoorPath;
+  door2.src = closedDoorPath;
+  door3.src = closedDoorPath;
+  numClosedDoors = 3;
+  currentlyPlaying = true;
+  startButton.innerHTML = 'Good luck!';
+  randomChoreDoorGenerator();
+}
+const gameOver(status) => {
+if (status === 'win') {
+  startButton.innerHTML = 'You win! Play again?';
+} else {
+  startButton.innerHTML = 'Game over! Play again?'
+}
+currentlyPlaying = false;
+}
+startRound();
+
+Project #28: Piano Keys
+main.js
+// The keys and notes variables store the piano keys
+const keys = ['c-key', 'd-key', 'e-key', 'f-key', 'g-key', 'a-key', 'b-key', 'high-c-key', 'c-sharp-key', 'd-sharp-key', 'f-sharp-key', 'g-sharp-key', 'a-sharp-key'];
+const notes = [];
+keys.forEach(function(key){
+  notes.push(document.getElementById(key));
+})
+
+// Write named functions that change the color of the keys below
+const keyPlay = function(event) {
+  event.target.style.backgroundColor = 'red';
+}
+const keyReturn = function(event) {
+  event.target.style.backgroundColoe = '';
+}
+
+// Write a named function with event handler properties
+let eventAssignment = function(note) {
+  note.onmousedown = function() {
+    keyPlay(event);
+  }
+  note.onmouseup = function() {
+    keyReturn(event);
+  }
+}
+
+// Write a loop that runs the array elements through the function
+notes.forEach(eventAssignment);
+
+// These variables store the buttons that progress the user through the lyrics
+let nextOne = document.getElementById('first-next-line');
+let nextTwo = document.getElementById('second-next-line');
+let nextThree = document.getElementById('third-next-line');
+let startOver = document.getElementById('fourth-next-line');
+
+// This variable stores the '-END' lyric element
+let lastLyric = document.getElementById('column-optional');
+
+// These statements are "hiding" all the progress buttons, but the first one
+nextTwo.hidden = true;
+nextThree.hidden = true;
+startOver.hidden= true;
+
+// Write anonymous event handler property and function for the first progress button
+nextOne.onclick = function() {
+  nextTwo.hidden = false;
+  nextOne.hidden = true;
+
+document.getElementById('letter-note-five').innerHTML = 'D';
+document.getElementById('letter-note-six').innerHTML = 'C';
+}
+
+// Write anonymous event handler property and function for the second progress button
+nextTwo.onclick = function() {
+ nextThree.hidden = false;
+ nextTwo.hidden = true; 
+
+ document.getElementById('word-five').innerHTML = 'DEAR';
+ document.getElementById('word-six').innerHTML = 'FRI-';
+
+document.getElementById('letter-note-three').innerHTML = 'G';
+document.getElementById('letter-note-four').innerHTML = 'E';
+document.getElementById('letter-note-five').innerHTML = 'C';
+document.getElementById('letter-note-six').innerHTML = 'B';
+ lastLyrics.style.display = 'inline-block';
+}
+
+// Write anonymous event handler property and function for the third progress button
+nextThree.onclick = function() {
+  startOver.hidden = false;
+  nextThree.hidden = true;
+
+  document.getElementById('word-one').innerHTML = 'HAP-';
+  document.getElementById('word-two').innerHTML = 'PY';
+  document.getElementById('word-three').innerHTML = 'BIRTH';
+  document.getElementById('word-four').innerHTML = 'DAY';
+  document.getElementById('word-five').innerHTML = 'TO';
+  document.getElementById('word-six').innerHTML = 'YOU';
+
+  document.getElementById('letter-note-one').innerHTML = 'F';
+   document.getElementById('letter-note-two').innerHTML = 'E';
+    document.getElementById('letter-note-three').innerHTML = 'E';
+     document.getElementById('letter-note-four').innerHTML = 'C';
+      document.getElementById('letter-note-five').innerHTML = 'D';
+ document.getElementById('letter-note-six').innerHTML = 'C';
+
+ lastLyrics.style.display = 'none';
+}
+
+// This is the event handler property and function for the startOver button
+startOver.onclick = function() {
+  nextOne.hidden = false;
+  startOver.hidden = true;
+   document.getElementById('word-one').innerHTML = 'HAP-';
+  document.getElementById('letter-note-one').innerHTML = 'G';
+  document.getElementById('word-two').innerHTML = 'PY';
+  document.getElementById('letter-note-two').innerHTML = 'G';
+  document.getElementById('word-three').innerHTML = 'BIRTH-';
+  document.getElementById('letter-note-three').innerHTML = 'A';
+  document.getElementById('word-four').innerHTML = 'DAY';
+  document.getElementById('letter-note-four').innerHTML = 'G';
+  document.getElementById('word-five').innerHTML = 'TO';
+  document.getElementById('letter-note-five').innerHTML = 'C';
+  document.getElementById('word-six').innerHTML = 'YOU!';
+  document.getElementById('letter-note-six').innerHTML = 'B';
+}
+
+Project #29: Musicon
+index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Musicon</title>
+    <link href="public/style.css" rel="stylesheet">
+    <script src="handlebars.min.js"></script>
+    <script id="templateHB" type="text/x-handlebars-template">
+    <h1>{{title}}</h1>
+    <p>{{body}}</p>
+    <a href="store.html">Shop Now</a> 
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <section class="container">
+        <h1 class="branding">Musicon</h1>
+
+        <nav>
+        
+          <ul class="navbar">
+
+          <li class="current">
+<a href="index.html">Home </a>
+            </li>
+            <li>
+              <a href="store.html">Store</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+                </li>
+          </ul>
+        </nav>
+
+      </section>
+    </header>
+
+    <article id="introduction">
+      <section id="information" class="container">
+       
+       
+      </section>
+    </article>
+
+    <footer>
+      <p>&copy; Musicon</p>
+    </footer>
+    <script src="public/main.js"></script>
+  </body>
+</html>
+store.html
+<section class="details">
+            <h2 class="name">{{this.name}}</h2>
+            <p class="description">{{this.description}}</p>
+            <p class="price"><del>Price: {{this.price}}</del></p>
+            <p class="sale">On Sale! {{this.sale}}</p>
+            {{else}}
+            <p class="price"><del>Price: {{this.price}}</p>
+            {{/if}}
+          </section>
+        </article>
+        {{/each}}
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <section class="container">
+        <h1 class="branding">Musicon</h1>
+
+        <nav>
+           <ul class="navbar">
+
+          <li>
+<a href="index.html">Home </a>
+            </li>
+            <li class="current">
+              <a href="store.html">Store</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+                </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <article id="showcase">
+      <section id="information" class="container">
+        
+
+        <article class="instrument">
+          <img class="image" src="https://s3.amazonaws.com/codecademy-content/courses/learn-handlebars/musicon/electric-guitar.png" alt="Electric Guitar">
+          <section class="details">
+            <h2 class="name">Electric Guitar</h2>
+            <p class="description">Join the legends of the '50s and '60s when the marriage of guitar and electricity created the most influential instrument of a generation. Note: picks sold separately.</p>
+            <p class="price">Price: $599.99</p>
+          </section>
+        </article>
+
+        <article class="instrument">
+          <img class="image" src="https://s3.amazonaws.com/codecademy-content/courses/learn-handlebars/musicon/bass-guitar.png" alt="Bass Guitar">
+          <section class="details">
+            <h2 class="name">Bass Guitar</h2>
+            <p class="description">Experience the embodiment of funkadelic frequencies that is the bass guitar. Let the deep low notes of the bass guitar resonate with heartbeats everywhere.</p>
+            <p class="price">Price: $624.99</p>
+          </section>
+        </article>
+
+        <article class="instrument">
+          <img class="image" src="https://s3.amazonaws.com/codecademy-content/courses/learn-handlebars/musicon/drum-kit.png" alt="Drum Kit">
+          <section class="details">
+            <h2 class="name">Drum Kit</h2>
+            <p class="description">Ever thought, "one instrument isn\'t enough?" Find an answer in the Drum Kit. Coordinate a collections of drums and cymbals to dictate the rhythm of musical masterpiece.</p>
+            <p class="price"><del>Price: $649.00</del></p>
+            <p class="sale">On Sale!</p>
+            <p class="deal">With Deal: $349.00</p>
+          </section>
+        </article>
+
+      </section>
+    </article>
+
+    <footer>
+      <p>&copy; Musicon 2018</p>
+    </footer>
+
+    <script src="public/main.js"></script>
+  </body>
+</html>
+contact.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Musicon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="public/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <section class="container">
+        <h1 class="branding">Musicon</h1>
+
+        <nav>
+           <ul class="navbar">
+
+          <li>
+<a href="index.html">Home </a>
+            </li>
+            <li>
+              <a href="store.html">Store</a>
+              </li>
+              <li class="current">
+                <a href="contact.html">Contact</a>
+                </li>
+          </ul>
+        </nav>
+
+      </section>
+    </header>
+
+    <article id="connection">
+      <section id="top">
+        <h2>Let's Get In Touch!</h2>
+        <p>Ready to start purchasing your musical instruments on Musicon? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+      </section>
+
+      <section class="contact">
+        <img class="icon" src="https://s3.amazonaws.com/codecademy-content/courses/learn-handlebars/musicon/phone+icon.svg" alt="phone icon">
+        <p>123-456-7890</p>
+      </section>
+
+      <section class="contact">
+        <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-handlebars/musicon/mail+icon.svg" alt="email icon">
+        <p>feedback@musicon.com</p>
+      </section>
+
+      <section class="contact">
+        <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-handlebars/musicon/location+icon.svg" alt="location pin icon">
+        <ul id="location">
+          <li>Musicon</li>
+          <li>111 Music Rd, Suite 33</li>
+          <li>New York, NY 11111</li>
+        </ul>
+      </section>
+    </article>
+
+    <footer>
+      <p>&copy; Musicon 2018</p>
+    </footer>
+  </body>
+</html>
+style.css
+/* General Rulesets */
+* {
+  color: #ffffff;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+	background: url("https://s3.amazonaws.com/codecademy-content/courses/learn-handlebars/musicon/musicon_bg.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  position: static;
+}
+
+header {
+  padding-top: 3%;
+  min-height: 70px;
+}
+
+.container {
+width: 90%;
+margin: 0 auto;
+}
+
+.branding {
+  float: left;
+}
+
+.branding h1 {
+  font-weight: normal;
+}
+
+nav {
+  float: right;
+}
+
+.navbar {
+  margin-top: 15%;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.navbar li a {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: normal;
+}
+
+.navbar li a:hover, .navbar .current a {
+  color: #ffffff;
+}
+
+/* Home Page Rulesets */
+
+#introduction {
+text-align: center;
+margin-top: 15%;
+margin-bottom: 50%;
+}
+
+#introduction h1 {
+  font-size: 60px;
+}
+
+#introduction p {
+  margin: 10% auto;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+#introduction a {
+  display: block;
+  width: 20%;
+  padding: 3% 8%;
+  margin: 0 auto;
+  color: #ffffff;
+  background-color: #4c7ef3;
+  border-radius: 4px;
+}
+
+#introduction a:hover {
+  background-color: #26A69A;
+}
+
+/* Store Page Rulesets */
+
+#showcase {
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+.instrument {
+  width: 90%;
+  overflow: auto;
+background-color: rgba(255, 255, 255, 0.9);
+padding: 2% 5%;
+margin: 5% auto;
+border-radius: 5px;
+}
+
+.image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 32%;
+  min-width: 100px;
+  margin: 0 auto;
+}
+
+.details {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+  margin: -1% auto;
+  padding: 2%;
+}
+
+.name, .description, .price, del {
+  color: #000000;
+  text-align: left;
+}
+
+.description, .price {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.description {
+  height: 100%;
+  font-size: 13px;
+  overflow: auto;
+}
+
+.price {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sale {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fa4359;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Contact Page Rulesets */
+
+#connection {
+  width: 100%;
+  margin: 15% auto;
+  text-align: center;
+}
+
+#top {
+  margin: 15% auto;
+}
+
+#top h2 {
+  margin: 3%
+  font-size: 30px;
+  font-weight: normal;
+}
+
+#top p {
+  margin: 3%
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.contact {
+  width: 100%;
+  margin: 10% auto;
+}
+
+.contact p, .contact ul {
+  margin: 1%;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+#location {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+main.js
+const context = {
+  title: 'Welcome to Musicon',
+  body: 'Musicon is a budding musical storefront with a mission to share the joy of music. These magnificent auditory tools are designed with musical creators, like you, in mind. Hobbyists, beginners, and experts alike can appreciate the resplendent sounds supplied by each and every instrument we carry. Join us in delivering the euphoric vibrations of melodia to the citizens of the world!',
+  instruments: [
+    {
+      image: 'https://s3.amazonaws.com/codecademy-content/courses/learn-handlebars/musicon/electronic-keyboard.png',
+      name: 'Electronic Keyboard',
+      description: 'A piano welcomed to the 21th century. Pianists celebrate the compact form factor and the diversity of synthesized rhythms all in one masterful musical machine.',
+      price: '$1,999.00',
+      sale: '$1,699.89'
+    },
+    {
+      image: 'https://s3.amazonaws.com/codecademy-content/courses/learn-handlebars/musicon/electric-guitar.png',
+      name: 'Electric Guitar',
+      description: 'Join the legends of the \'50s and \'60s when the marriage of guitar and electricity created the most influential instrument of a generation. Note: picks sold separately.',
+      price: '$599.99'
+    },
+    {
+      image: 'https://s3.amazonaws.com/codecademy-content/courses/learn-handlebars/musicon/bass-guitar.png',
+      name: 'Bass Guitar',
+      description: 'Experience the embodiment of funkadelic frequencies that is the bass guitar. Let the deep low notes of the bass guitar resonate with heartbeats everywhere.',
+      price: '$624.99'
+    },
+    {
+      image: 'https://s3.amazonaws.com/codecademy-content/courses/learn-handlebars/musicon/drum-kit.png',
+      name: 'Drum Kit',
+      description: 'Ever thought, "one instrument isn\'t enough?" Find an answer in the drum kit. Coordinate a collections of drums and cymbals to dictate the rhythm of musical masterpiece.',
+      price: '$649.00',
+      sale: '$349.00'
+    },
+    {
+      image: 'https://s3.amazonaws.com/codecademy-content/courses/learn-handlebars/musicon/violin.png',
+      name: 'Violin',
+      description: 'A versatile that is suited for any and all occasions. Those wearing tuxedos can strum together a classic. Others who prefer overalls can call it a fiddle and play some folk songs.',
+      price: '$245.00'
+    },
+  ]
+};
+
+const templateElement = document.getElementById("templateHB");
+
+const templateSource = templateElement.innerHTML;
+
+const template = Handlebars.compile(templateSource);
+
+const compiledHtml = template(context);
+
+document.getElementById('information').innerHTML = compiledHtml;
+
+Project #30: Build a Library
+app.js
+class Media {
+ constructor(title) {
+   this._title = title;
+   this._isCheckedOut = false;
+   this._ratings = [];
+ }
+get title() {
+  return this._title;
+}
+get isCheckedOut() {
+  return this._isCheckedOut;
+}
+ get ratings(){
+   return this._ratings;
+ }
+
+ set isCheckedOut(value) {
+   this._isCheckedOut = value;
+ }
+
+ toggleCheckOutStatus() {
+   this.isCheckedOut = !this.isCheckedOut;
+ }
+ getAverageRating() {
+   let ratingsSum = this.ratings.reduce((accululator, rating) => accumulator + rating);
+   return ratingsSum / this.ratings.length;
+ }
+ addRating(value) {
+   this.ratings.push(value);
+ }
+}
+class Book extends Media {
+constructor(author, title, pages) {
+  super(title);
+  this._author = author;
+  this._pages = pages;
+}
+get author() {
+  return this._author;
+}
+get pages() {
+  return this._pages;
+}
+}
+
+class Movie extends Media {
+  constructor(director, title, runTime) {
+    super(title);
+    this._director = director;
+    this._runTime = runTime;
+  }
+  get director() {
+    return this._director;
+  }
+  get runTime() {
+    return this._runTime;
+  }
+  
+}
+const historyOfEverything = new Book('Bill Bryson', 'A Short History of Nearly Everything', 544);
+  historyOfEverything.toggleCheckOutStatus();
+console.log(historyOfEverything.isCheckedOut);
+historyOfEverything.addRating(4);
+historyOfEverything.addRating(5);
+historyOfEverything.addRating(5);
+console.log(historyOfEverything.getAverageRating());
+
+const speed = new Movie('Jan de Bont', 'Speed', 116);
+speed.toggleCheckOutStatus();
+console.log(speed.isCheckedOut);
+speed.addRating(1);
+speed.addRating(1);
+speed.addRating(5);
+console.log(speed.getAverageRating());
+
+Project #31: School Catalogue
+app.js
+class School {
+  constructor(name, level, numberOfStudents) {
+    this._name = name;
+    this._level = level;
+    this._numberOfStudents = numberOfStudents;
+  }
+  get name() {
+    return this._name;
+  }
+  get level() {
+    return this._level;
+  }
+  get numberOfStudents () {
+    return this._numberOfStudents;
+  }
+  set numberOfStudents(value) {
+    if(value.isNaN()) {
+      console.log('Invalid input: numberOfStudents must be set to a Number.');
+    }
+    else {
+      this._numberOfStudents = value;
+  }
+}
+quickFacts() {
+  console.log('${this.name} educates ${this.numberOfStudents} students at the ${this.level} school level.');
+}
+static pickSubstituteTeacher(substituteTeachers) {
+  const randInt = Math.Floor(Math.random() * substituteTeachers.length);
+  return substituteTeachers[randInt];
+}
+}
+class PrimarySchool extends School {
+  constructor(name, numberOfStudents, pickUpPolicy) {
+    super(name, 'primary', numberOfStudents);
+    this._pickUpPolicy = pickUpPolicy;
+  }
+  get pickUpPolicy() {
+    return this._pickUpPolicy;
+  }
+  class HighSchool extends School {
+    constructor(name, numberOfStudents, sportsTeams) {
+      super(name, 'high', numberOfStudents);
+      this._sportsTeams = sportsTeams;
+    }
+    get sportsTeams() {
+      return this._sportsTeams;
+    }
+  }
+  
+}
+const lorraineHansbury = new
+  PrimarySchool('Lorraine Hansbury', 514, 'Students must be picked up by a parent, guardian, or a family member over the age of 13.');
+lorraineHansbury.quickfacts();
+const sub = School.pickSubstituteTeacher(['Jamal Crawford', 'Lou Williams', 'J. R. Smith', 'James Harden', 'Jason Terry', 'Manu Ginobli']);
+
+const alSmith = new HighSchool('Al E. Smith', 415, ['Baseball', 'Basketball', 'Volleyball', 'Track and Field']);
+console.log(alSmith.sportsTeams);
+
+Project #32: Message Mixer
+messageMixer.js
+const MessageMixer = {};
+countCharacter = function (inputString, inputCharacter) {
+  let count = 0;
+  let string = inputString.toLowerCase();
+  let character = inputCharacter.toLowerCase();
+    for (let i = 0; i < string.length; i++) {
+      if (string[i] === character) {
+         count++;
+      }
+    }
+  return count; 
+};
+
+
+function capitalizeFirstCharacterOfWords(string) {
+  let arr = string.split(" ");  
+    for (let i = 0; i < arr.length; i++) {  
+      let word = arr[i];
+        arr[i] = word[0].toUpperCase() + word.substring(1); 
+    }
+  return arr.join(" "); 
+};
+
+
+function reverseWord(word) {
+  return word.split("").reverse().join("");
+};
+
+function reverseAllWords(sentence) {
+  let words = sentence.split(" ");
+    for (let i = 0; i < words.length; i++) {
+      words[i] = reverseWord(words[i]);
+    }
+   return words.join(" ");
+};
+
+
+function replaceFirstOccurence(string, toBeReplaced, replaceWith) {
+  return string.replace(toBeReplaced, replaceWith);
+};
+
+
+function replaceAllOccurrences(string, toBeReplaced, replaceWith) {
+  return string.split(toBeReplaced).join(replaceWith);
+};
+
+function encode(string) {
+  let replacementObject = { "a": "@", "s": "$", "i": "!", "o":"0" };
+    for (let key in replacementObject) {
+      string = replaceAllOccurrences(string, key, replacementObject[key]); 
+    }	
+    return string;
+  palindrome = function(str){
+  return str + ' ' + reverseWord(str);
+}
+pigLatin = function(sentence, character){
+  return sentence.split + (" ").join(character + ' ');
+}
+};
+
+export {countCharacter, capitalizeFirstCharacterOfWords, reverseWord, reverseAllWords, replaceFirstOccurence, replaceAllOccurrences, encode, palindrome, pigLatin} from './messageMixer';
+message.js
+import MessageMixer from './messageMixer';
+
+function displayMessage() {
+  console.log(countCharacter("What is the color of the sky?", "t"));
+  console.log(capitalizeFirstCharacterOfWords("What is the color of the sky?"));
+  console.log(reverseWord("What is the color of the sky?"));
+  console.log(reverseAllWords("What is the color of the sky?"));
+  console.log(replaceFirstOccurence("What is the color of the sky?", "sky", "water"));
+   console.log(pigLatin("What is the color of the sky?", "ay"));
+    console.log(palindrome("What is the color of the sky?", "sky", "water"));
+
+}
+
+displayMessage();
+
+Project #33: WorkAround
+employee.js
+let salary = 100000;
+
+let Employee = {
+  salary: 100000
+};
+
+let payGrades = {
+  entryLevel: { taxMultiplier: .05, benefits: ['health'], minSalary: 10000, maxSalary: 49999 },
+  midLevel: { taxMultiplier: .1, benefits: ['health', 'housing'], minSalary: 50000, maxSalary: 99999 },
+  seniorLevel: { taxMultiplier: .2, benefits: ['health', 'housing', 'wellness', 'gym'], minSalary: 100000, maxSalary: 200000 }
+};
+
+export function getCadre() {
+  if (Employee.salary >= payGrades.entryLevel.minSalary && Employee.salary <= payGrades.entryLevel.maxSalary) {
+    return 'entryLevel';
+  } else if (salary >= payGrades.midLevel.minSalary && Employee.salary <= payGrades.midLevel.maxSalary) {
+    return 'midLevel';
+  } else return 'seniorLevel';
+}
+
+export function calculateTax() {
+  return payGrades[Employee.getCadre()].taxMultiplier * Employee.salary;
+}
+
+export function getBenefits() {
+  return payGrades[Employee.getCadre()].benefits.join(', ');
+}
+
+export function calculateBonus() {
+  return .02 * Employee.salary;
+}
+
+export function reimbursementEligibility() {
+  let reimbursementCosts = { health: 5000, housing: 8000, wellness: 6000, gym: 12000 };
+  let totalBenefitsValue = 0; 
+  let employeeBenefits = payGrades[getCadre()].benefits;
+  for (let i = 0; i < employeeBenefits.length; i++) {
+    totalBenefitsValue += reimbursementCosts[employeeBenefits[i]];
+  }
+  return totalBenefitsValue;
+}
+
+export default Employee;
+workAround.js
+import {getCadre, calculateTax, getBenefits, calculateBonus, reimbursementEligibility} from './employee';
+
+import Employee from './employee';
+
+function getEmployeeInformation(inputSalary) {
+  Employee.salary = salary;
+  console.log('Cadre: ' + getCadre());
+  console.log('Tax: ' + CalculateTax());
+  console.log('Benefits: ' + getBenefits());
+  console.log('Bonus: ' + CalculateBonus());
+  console.log('Reimbursement Eligibility: ' + reimbursementEligibility() + '\n');
+}
+
+getEmployeeInformation(10000);
+getEmployeeInformation(50000);
+getEmployeeInformation(100000);
+
+Project #34: Wanderlust
+main.js
+// Foursquare API Info
+const clientId = '';
+const clientSecret = '';
+const url = '';
+
+// OpenWeather Info
+const openWeatherKey = '';
+const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather';
+
+// Page Elements
+const $input = $('#city');
+const $submit = $('#button');
+const $destination = $('#destination');
+const $container = $('.container');
+const $venueDivs = [$("#venue1"), $("#venue2"), $("#venue3"), $("#venue4")];
+const $weatherDiv = $("#weather1");
+const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+// Add AJAX functions here:
+const getVenues = async () => {
+const city = $input.val();
+}
+const urlToFetch = `${url}${city}&limit=10&client_id=${clientId}&client_secret=${clientSecret}&v=20180101`;
+try {
+const response = await fetch(urlToFetch);
+if (response.ok) {
+
+}
+} catch (error) {
+ console.log(error); 
+}
+const jsonResponse = await response.json();
+console.log(jsonResponse);
+const venues = jsonResponse.response.groups[0].items.map(item => item.venue);
+console.log(venues);
+return venues;
+const getForecast = async () => {
+  const urlToFetch = `${weatherUrl}?&q=${$input.val()}&APPID=${openWeatherKey}`;
+try {
+const response = await fetch(urlToFetch);
+if (response.ok) {
+  const jsonResponse = await response.json(); 
+}
+return jsonResponse;
+} catch (error) {
+  console.log(error);
+}
+}
+
+
+// Render functions
+const renderVenues = (venues) => {
+  $venueDivs.forEach(($venue, index) => {
+  const venue = venues[index];
+    const venueIcon = venue.categories[0].icon;
+    const venueImgSrc = `${venueIcon.prefix}bg_64${venueIcon.suffix}`;
+const venueIcon = venue.categories[0].icon;
+    let venueContent = '';
+    $venue.append(venueContent);
+  });
+  $destination.append(`<h2>${venues[0].location.city}</h2>`);
+}
+
+const renderForecast = (day) => {
+const executeSearch = () => {
+  // ...
+getForecast().then(forecast => renderForecast(forecast));
+}
+}
+  
+	let weatherContent = '';
+  $weatherDiv.append(weatherContent);
+}
+
+const executeSearch = () => {
+  $venueDivs.forEach(venue => venue.empty());
+  $weatherDiv.empty();
+  $destination.empty();
+  $container.css("visibility", "visible");
+  getVenues()
+  getForecast()
+  return false;
+}
+
+$submit.click(executeSearch)
+
+Project #35: Build a Build Script
+script.sh
+#!/bin/bash
+echo "Hello, world!"
+firstline=$(head -n 1 source/changelog.md)
+read -a splitfirstline <<< $firstline
+version=${splitfirstline[1]}
+echo "You are building version" $version
+echo 'Do you want to continue? (enter "1" for yes, "0" for no)'
+read versioncontinue
+if [ $versioncontinue -eq 1 ]
+then
+  echo "OK"
+else
+  echo "Please come back when you are ready"
+fi
+for filename in source/*
+do
+  echo $filename
+done
+if [ "$filename" == "source/secretinfo.md" ]
+then
+  echo "Not copying" $filename
+else
+  echo "Copying" $filename
+fi
+if [ "$filename" == "source/secretinfo.md" ]
+then
+  echo "Not copying" $filename
+else
+  echo "Copying" $filename
+  cp $filename build/.
+fi
+cd build/
+# We'll add more code here later
+cd ..
+echo "Build version $version contains:"
+ls
+Project #36: Birthday Party
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kay's Birthday Party</title>
+</head>
+<body>
+  <h1 style="font-size: 72px">Kay's Birthday Party</h1>
+  <h2>Friday, November 13, 2015, from 7 - 11 pm</h2>
+  <h3>At Roof Garden Cafe, in the Met </h3>
+<ul>
+    <li>Join Kay in celebrating their 29th birthday with free food and beverages</li>
+    <li>karaoke and a special appearance by Willy Nelson</li>
+    <li>explore the Met museum before or after you stop by!</li>
+    <li>Birthday presents optional</li>
+</ul>
+
+  <p>For more information: contact Kay at 101-000-0101</p>
+
+</body>
+</html>
+
+Project #37: Javascript Homework
+homework.js
+// Mary Rose's JavaScript Homework
+
+// 1. Write an if/else statement
+// could be better
+var APPLE_QUANTITY = 5;
+
+if (APPLE_QUANTITY < 5){
+  console.log("You have fewer than 5 apples.");
+} else {
+  console.log("You have 5 or more apples. Hurrah!");
+}
+
+// 2. Write a "for" loop
+// good heavens
+for(i = 0; i < APPLE_QUANTITY; i ++){
+  console.log("WEEEEEEE! I'm looping!")
+}
+
+// 3. Write a function
+var sayHello = function(){
+  console.log("Hello!")
+}
+
+// 4. Create an object
+// you are improving
+var mary = {
+  name: "Mary Rose",
+  codeNinja: true,
+  country: "UK"
+}
+Project #38: Transpilation
+main.js
+class HospitalEmployee {
+  constructor(name) {
+    this._name = name;
+    this._remainingVacationDays = 20;
+  }
+  
+  get name() {
+    return this._name;
+  }
+  
+  get remainingVacationDays() {
+    return this._remainingVacationDays;
+  }
+  
+  takeVacationDays(daysOff) {
+    this._remainingVacationDays -= daysOff;
+  }
+  
+  static generatePassword() {
+    return Math.floor(Math.random()*10000);
+  }
+}
+
+class Nurse extends HospitalEmployee {
+  constructor(name, certifications) {
+    super(name);
+    this._certifications = certifications;
+  } 
+  
+  get certifications() {
+    return this._certifications;
+  }
+  
+  addCertification(newCertification) {
+    this.certifications.push(newCertification);
+  }
+}
+
+const nurseOlynyk = new Nurse('Olynyk', ['Trauma','Pediatrics']);
+let nurseDurant = new Nurse('Durant', ['Orthopedics']);
+nurseOlynyk.takeVacationDays(5);
+console.log(nurseOlynyk.remainingVacationDays);
+nurseOlynyk.addCertification('Genetics');
+console.log(nurseOlynyk.certifications);
+
+module.exports = HospitalEmployee;
+
+Project #39: Authorization Form
+contact.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+class Contact extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      password: 'swordfish',
+      authorized: false
+    };
+    this.authorize = this.authorize.bind(this);
+  }
+
+  authorize(e) {
+    const password = e.target.querySelector(
+      'input[type="password"]').value;
+    const auth = password == this.state.password;
+    this.setState({
+      authorized: auth
+    });
+  }
+
+  render() {
+
+    const login = (
+<form action="#" onSubmit={this.authorize}>
+<input
+type="password"
+placeholder="Password" />
+<input type="submit" />
+</form>
+    );
+
+    const contactInfo = (
+  <ul>
+          <li>
+            client@example.com
+          </li>
+          <li>
+            555.555.5555
+          </li>
+        </ul>
+       );
+    return (
+      <div id="authorization">
+        <h1>
+        { this.state.authorized ? 'Contact' : 'Enter the Password' }
+        </h1>
+      { this.state.authorized ? contactInfo : login }
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(
+  <Contact />, 
+  document.getElementById('app')
+);
+
+Project #40: Video Player
+app.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Video } from './Video';
+import { Menu } from './Menu';
+
+const VIDEOS = {
+  fast: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4',
+  slow: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-slow.mp4',
+  cute: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-cute.mp4',
+  eek: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-eek.mp4'
+};
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { src: VIDEOS.fast };
+
+    this.chooseVideo = this.chooseVideo.bind(this);
+  }
+chooseVideo(newVideo) {
+  this.setState({
+    src: VIDEOS[newVideo]
+  });
+}
+
+  
+  render() {
+    return (
+      <div>
+        <h1>Video Player</h1>
+        <Menu chooseVideo={this.chooseVideo} />
+        <Video src={this.state.src} />
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(
+  <App />, 
+  document.getElementById('app')
+);
+video.js
+import React from 'react';
+
+export class Video extends React.Component {
+  render() {
+    return (
+      <div>
+        <video controls autostart autoPlay muted src={this.props.src}/>
+      </div>
+    );
+  }
+}
+menu.js
+import React from 'react';
+
+export class Menu extends React.Component {
+
+constructor(props) {
+  super(props);
+  this.handleClick = this.handleClick.bind(this);
+}
+
+handleClick(e) {
+  const text = e.target.value;
+  this.props.chooseVideo(text);
+},
+
+  render() {
+    return (
+      <form onClick={this.handleClick}>
+        <input type="radio" name="src" value="fast" /> fast
+        <input type="radio" name="src" value="slow" /> slow
+        <input type="radio" name="src" value="cute" /> cute
+        <input type="radio" name="src" value="eek" /> eek
+      </form>
+    );
+  }
+}
+
+Project #41: Random Color Picker
+random.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Button } from './Button';
+class Random extends React.Component {
+
+  constructor(props);
+  super(props);
+  this.state = {
+    color: [40, 70, 90]
+  }
+  this.handleClick = this.handleClick.bind(this);
+};
+  componentDidMount() {
+    this.applyColor();
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    this.applyColor();
+  }
+
+  formatColor(ary) {
+    return 'rgb(' + ary.join(', ') + ')';
+  }
+
+  isLight() {
+    const rgb = this.state.color;
+    return rgb.reduce((a,b) => a+b) < 127 * 3;
+  }
+
+  applyColor() {
+    const color = this.formatColor(this.state.color);
+    document.body.style.background = color;
+  }
+
+  chooseColor() {
+    const random = [];
+    for (let i = 0; i < 3; i++) {
+      random.push(Math.floor(Math.random()*256));
+    }
+    return random;
+  }
+
+  handleClick() {
+this.setState({
+  color: this.chooseColor();
+}
+
+)
+  }
+ 
+ 
+  render() {
+    return (
+      <div>
+        <h1 className={this.isLight() ? 'white' : 'black'}>
+Your color is {this.formatColor{this.state.color}}.
+        </h1>
+        <Button light={this.isLight()}
+        onClick={this.handleClick} />
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(
+  <Random />, 
+  document.getElementById('app')
+);
+button.js
+import React from 'react';
+
+export class Button extends React.Component {
+	render() {
+		return (
+			<button 
+				className={ this.props.light ? 'light-button' : 'dark-button' }
+        onClick={this.props.onClick}>
+				Refresh
+			</button>
+		);
+	}
+}
+
+Project #42: New York Restaurants
+query_project.sqlite
+SELECT name,
+ CASE
+  WHEN review > 4.5 THEN 'Extraordinary'
+  WHEN review > 4 THEN 'Excellent'
+  WHEN review > 3 THEN 'Good'
+  WHEN review > 2 THEN 'Fair'
+  ELSE 'Poor'
+ END AS 'Review'
+FROM nomnom;
+
+Project #43: Create a Table
+project_1.sqlite
+CREATE TABLE friends (
+  id INTEGER,
+  name TEXT,
+  birthday DATE
+);
+
+INSERT INTO friends (id, name, birthday)
+VALUES (1, 'Jane Doe', '1990-05-30');
+
+SELECT *
+FROM friends;
+
+INSERT INTO friends (id, name, birthday) 
+VALUES (2, 'Eric Thompson', '1978-01-03');
+
+INSERT INTO friends (id, name, birthday) 
+VALUES (3, 'Mark Anderson', '1981-06-07');
+
+UPDATE friends
+SET name = 'Jane Smith'
+WHERE id = 1;
+
+ALTER TABLE friends
+ADD COLUMN email TEXT;
+
+UPDATE friends
+SET email = 'jane@codecademy.com'
+WHERE id = 1;
+
+UPDATE friends
+SET email = 'eric@codecademy.com'
+WHERE id = 2;
+
+UPDATE friends
+SET email = 'mark@codecademy.com'
+WHERE id = 3;
+
+DELETE FROM friends
+WHERE id = 1;
+
+SELECT *
+FROM friends;
+
+Project #44: Trends in Startups
+project.sqlite
+SELECT *
+FROM startups;
+
+SELECT COUNT(*)
+FROM startups;
+
+SELECT SUM(valuation)
+FROM startups;
+
+SELECT MAX(raised)
+FROM startups;
+
+SELECT MAX(raised)
+FROM startups
+WHERE stage = 'Seed';
+
+SELECT MIN(founded)
+FROM startups;
+
+SELECT AVG(valuation)
+FROM startups;
+
+SELECT category, AVG(valuation)
+FROM startups
+GROUP BY category;
+
+SELECT category, ROUND(AVG(valuation), 2)
+FROM startups
+GROUP BY category;
+
+SELECT category, ROUND(AVG(valuation), 2)
+FROM startups
+GROUP BY 1
+ORDER BY 2 DESC;
+
+SELECT category, COUNT(*)
+FROM startups
+GROUP BY category;
+
+SELECT category, COUNT(*)
+FROM startups
+GROUP BY category
+HAVING COUNT(*) > 3
+ORDER BY 2 DESC;
+
+SELECT location, AVG(employees)
+FROM startups
+GROUP BY location;
+
+SELECT location, AVG(employees)
+FROM startups
+GROUP BY location
+HAVING AVG(employees) > 500;
+
+Project #45: Multiple Tables with REBU
+test.sqlite
+SELECT * FROM trips;
+
+SELECT * FROM riders;
+
+SELECT * FROM cars;
+
+SELECT riders.first,
+riders.last,
+cars.model
+FROM riders, cars;
+
+SELECT *
+FROM trips
+LEFT JOIN riders
+ON trips.rider_id = riders.id;
+
+SELECT *
+FROM trips
+JOIN cars
+ON trips.car_id = cars.id;
+
+SELECT *
+FROM riders
+UNION
+SELECT *
+FROM riders2;
+
+SELECT ROUND(AVG(cost), 2)
+FROM trips;
+
+SELECT * 
+FROM riders
+WHERE total_trips < 500
+UNION
+SELECT *
+FROM riders2
+WHERE total_trips < 500;
+
+SELECT COUNT(*)
+FROM cars
+WHERE status = 'active';
+
+SELECT *
+FROM cars
+ORDER BY trips_completed DESC
+LIMIT 2;
+
+Project #46: Codestrips
+app.js
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+const morgan = require('morgan');
+
+const PORT = process.env.PORT || 4001;
+
+app.use(express.static('public'));
+app.use(morgan('dev'));
+app.use(bodyParser.json());
+app.get('/strips', (req, res, next) => {
+S')
+res.send({ strips: stripsFromDatabase })
+});
+app.listen(PORT, ()) {
+  console.log('Server is listening on port: ${PORT}');
+}
+module.exports = app;
+
+});
+app.listen(PORT, ()) {
+  console.log('Server is listening on port: ${PORT}');
+}
+module.exports = app;
+sql.js
+const sqlite3 = require('sqlite3');
+const db = new
+sqlite3.Database('./db.sqlite');
+
+db.serialize(() =>{
+db.run('DROP TABLE IF EXISTS Strip');
+db.run('CREATE TABLE IF NOT EXISTS Strip');
+id INTEGER PRIMARY KEY,
+head TEXT NOT NULL,
+body TEXT NOT NULL,
+background TEXT NOT NULL,
+bubble_type TEXT NOT NULL,
+bubble_text TEXT NOT NULL DEFAULT "",
+caption TEXT NOT NULL DEFAULT ""
+
+});
+
+Project #47: Cake-O'Clock
+user-visits-index-test.js
+const {assert} = require('chai');
+const {jsdom} = require('jsdom');
+
+const parseTextFromHTML = (htmlAsString, selector) => {
+  const selectedElement = jsdom(htmlAsString).querySelector(selector);
+  if (selectedElement !== null) {
+    return selectedElement.textContent;
+  } else {
+    throw new Error(`No element with selector ${selector} found in HTML string`);
+  }
+};
+
+describe('User visits index', () => {
+  describe('to post an order', () => {
+    it('starts with a blank order', () => {
+      browser.url('/');
+
+      assert.equal(browser.getText('#deliver-to span'), '');
+      assert.equal(browser.getText('#cake-type span'), '');
+      assert.equal(browser.getText('#fillings span'), '');
+      assert.equal(browser.getText('#size span'), '');
+    });
+
+    // Add the 'outside of working hours' test here
+ it('does not provide options outside of working hours', () => {
+      const earlyHr = '7:00';
+      const lateHr = '13:00';
+
+      browser.url('/');
+      const HTML = browser.getHTML('body');
+      const parsedHTML = parseTextFromHTML(HTML, '#select-pickUp');
+
+      assert.notInclude(parsedHTML, earlyHr);
+      assert.notInclude(parsedHTML, lateHr);
+    });
+
+    // Add the 'displays the selected hour' test here
+    it('displays the selected hour', () => {
+      const hour = '9:00';
+
+      browser.url('/');
+      browser.selectByVisibleText('#select-pickUp', hour);
+      browser.click('#submit-order');
+      browser.url('/');
+
+      assert.include(browser.getText('#pickUp'), hour);
+    });  
+    
+    // Add the 'labels the pick up hour' test here
+it('labels the pick up hour correctly', () => {
+      const label = 'pick up time:';
+
+      browser.url('/');
+      const HTML = browser.getHTML('body');
+      const parsedHTML = parseTextFromHTML(HTML, '#pickUp');
+
+      assert.include(parsedHTML, label);
+    });
+
+    it('accepts the customer name', () => {
+      const name = 'Hungry Person';
+
+      browser.url('/');
+      browser.setValue('#name', name);
+      browser.click('#submit-order');
+      browser.url('/');
+
+      assert.include(browser.getText('#deliver-to'), name);
+    });
+
+    it('accepts the cake type', () => {
+      const cakeType = 'Whole Wheat';
+
+      browser.url('/');
+      browser.click('#whole-wheat');
+      browser.click('#submit-order');
+      browser.url('/');
+
+      assert.include(browser.getText('#cake-type'), cakeType);
+    });
+
+    it('accepts multiple fillings', () => {
+      const firstChoice = 'Strawberries';
+      const secondChoice = 'Banana';
+
+      browser.url('/');
+      browser.click('#strawberries');
+      browser.click('#banana');
+      browser.click('#submit-order');
+      browser.url('/');
+
+      assert.include(browser.getText('#fillings'), firstChoice);
+      assert.include(browser.getText('#fillings'), secondChoice);
+    });
+
+    it('accepts the stack size', () => {
+      const optionText = 'Double Stack';
+      const optionNum = '2';
+
+      browser.url('/');
+      browser.selectByVisibleText('#select-stack', optionText)
+      browser.click('#submit-order');
+      browser.url('/');
+
+      assert.include(browser.getText('#size'), optionNum);
+    });
+  });
+
+  describe('to clear an order', () => {
+    it('deletes the selected options', () => {
+      const name = 'Indecisive Person';
+      const time = '10:00';
+
+      browser.url('/');
+      browser.setValue('#name', name);
+      browser.selectByVisibleText('#select-pickUp', time)
+      browser.click('#submit-order');
+      browser.click('#clear-order');
+      browser.url('/');
+
+      assert.equal(browser.getText('#deliver-to span'), '');
+      assert.equal(browser.getText('#cake-type span'), '');
+      assert.equal(browser.getText('#fillings span'), '');
+      assert.equal(browser.getText('#size span'), '');
+    });
+  });
+});
+index.handlebars
+  <div class="banner">
+    <h1>CAKE BAR</h1>
+  </div>
+
+  <div class="body-container">
+    <div class="menu">
+      <form id="cake-form" action="/place-order" method="post">
+        <div class="form-container">
+          <div class="form-row">
+            <h2>Enter your name</h2>
+          </div>
+
+          <div class="form-row">
+            <div class="name-flex">
+              <div class="name-col-1">
+                <input type="text" id="name" name="name" value="">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <h2>Pick a cake type</h2>
+          </div>
+
+          <div class="form-row">
+            <div class="input-col">
+              <label for="plain">
+                <input type="radio" id="plain" name="cakeType" value="Plain">Plain<br>
+              </label>
+            </div>
+            <div class="input-col">
+              <label for="whole-wheat">
+                <input type="radio" id="whole-wheat" name="cakeType" value="Whole Wheat">Whole Wheat<br>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <h2>Add fillings</h2>
+          </div>
+
+          <div class="form-row">
+            <div class="input-col">
+              <label for="strawberries">
+                <input type="checkbox" id="strawberries" name="fillings" value="Strawberries">Strawberries<br>
+              </label>
+              <label for="blueberries">
+                <input type="checkbox" id="blueberries" name="fillings" value="Blueberries">Blueberries<br>
+              </label>
+              <label for="banana">
+                <input type="checkbox" id="banana" name="fillings" value="Banana">Banana<br>
+              </label>
+              <label for="apple">
+                <input type="checkbox" id="apple" name="fillings" value="Apple">Apple<br>
+              </label>
+            </div>
+            <div class="input-col">
+              <label for="macadamia-nuts">
+                <input type="checkbox" id="macadamia-nuts" name="fillings" value="Macadamia Nuts">Macadamia Nuts<br>
+              </label>
+              <label for="sprinkles">
+                <input type="checkbox" id="sprinkles" name="fillings" value="Sprinkles">Sprinkles<br>
+              </label>
+              <label for="chocolate-chips">
+                <input type="checkbox" id="chocolate-chips" name="fillings" value="Chocolate Chips">Chocolate chips<br>
+              </label>
+              <label for="bacon">
+                <input type="checkbox" id="bacon" name="fillings" value="Bacon">Bacon<br>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="input-col">
+              <h2>Choose a size</h2>
+            </div>
+            <div class="input-col">
+              <h2>Set a pick up</h2>
+            </div>
+          </div>
+
+          <div class="form-row select-row">
+            <div class="select-col">
+              <div class="styled-select">
+                <select id="select-stack" name="size">
+                  <option id="single" value="1">Single Stack</option>
+                  <option id="double" value="2">Double Stack</option>
+                  <option id="triple" value="3">Triple Stack</option>
+                  <option id="quadruple" value="4">Quadruple Stack</option>
+                  <option id="quintuple" value="5">Quintuple Stack</option>
+                  <option id="sextuple" value="6">Sextuple Stack</option>
+                  <option id="septuple" value="7">Septuple Stack</option>
+                  <option id="octuple" value="8">Octuple Stack</option>
+                  <option id="nonuple" value="9">Nonuple Stack</option>
+                  <option id="decuple" value="10">Decuple Stack</option>
+                  <option id="centuple" value="100">Centuple Stack</option>
+                </select>
+              </div>
+            </div>
+            <div class="select-col">
+              <div class="styled-select">
+                <select id="select-pickUp" name="pickUp">
+                  <option id="8:00" value="8:00">8:00</option>
+                  <!-- Fix the value below -->
+                  <option id="9:00" value="9:00">9:00</option>
+                  <option id="10:00" value="10:00">10:00</option>
+                  <option id="11:00" value="11:00">11:00</option>
+                  <option id="12:00" value="12:00">12:00</option>
+                  <!-- Remove the line below-->
+
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row place-order-div">
+            <input class="button" id="submit-order" type="submit" value="Place order">
+          </div>
+        </div>
+      </form>
+
+      <form action="/clear-order" method="post">
+        <div class="form-container">
+          <div class="form-row place-order-div">
+            <input class="button" id="clear-order" type="submit" value="Clear">
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="order">
+      <h2 id="deliver-to">deliver to: <span>{{order.name}}</span></h2>
+      <h2 id="cake-type">cake: <span>{{order.cakeType}}</span></h2>
+      <h2 id="fillings">fillings: <span>{{order.fillings}}</span></h2>
+      <h2 id="size">pancake count: <span>{{order.size}}</span></h2>
+      <!-- Fix the header below -->
+      <h2 id="pickUp">pick up time: <span>{{order.pickUp}}</span></h2>
+    </div>
+  </div>
+order-test.js
+const Order = require('../../models/order');
+const {assert} = require('chai');
+const {mongoose, databaseUrl, options} = require('../../database');
+
+describe('Order', () => {
+  beforeEach(async () => {
+    await mongoose.connect(databaseUrl, options);
+    await mongoose.connection.db.dropDatabase();
+  });
+
+  afterEach(async () => {
+    await mongoose.disconnect();
+  });
+
+  describe('.updateOrCreate', () => {
+    describe('when a record already exists', () =>{
+      it('updates the record', async () => {
+        const partialOrder = {
+          name: 'Regular Joe',
+          cakeType: 'Plain',
+          size: '2',
+          pickUp: '9:00',
+        };
+        const update = ['Apple', 'Bacon', 'Chocolate Chips'];
+        const existingOrder = await Order.create(partialOrder);
+
+        const updatedOrder = await Order.updateOrCreate({fillings: update});
+
+        const allOrders = await Order.find({});
+        assert.equal(allOrders.length, 1);
+        // toObject resolves issues with mongoose metadata in arrays
+        assert.deepEqual(updatedOrder.fillings.toObject(), update);
+        // check remaining fields
+        assert.include(updatedOrder, partialOrder);
+      });
+    });
+
+    describe('when a record does not exist', () =>{
+      it('creates the record', async () => {
+        let healthyOrder = {
+          name: 'Healthy Person',
+          cakeType: 'Whole Wheat',
+          fillings: ['Macadamia Nuts'],
+          size: '1',
+          pickUp: '11:00',
+        }
+
+        const order = await Order.updateOrCreate(healthyOrder);
+
+        const allOrders = await Order.find({});
+        assert.equal(allOrders.length, 1);
+        assert.deepEqual(allOrders[0].fillings.toObject(), healthyOrder.fillings);
+        delete healthyOrder.fillings;
+        assert.include(allOrders[0], healthyOrder);
+      });
+    });
+  });
+
+  describe('#cakeType', () => {
+    it('is a String', () => {
+      const nameAsAnInt = 1;
+
+      const order = new Order({ cakeType: nameAsAnInt });
+
+      assert.strictEqual(order.cakeType, nameAsAnInt.toString());
+    });
+  });
+
+  describe('#name', () => {
+    it('is a String', () => {
+      const nameAsAnInt = 1;
+
+      const order = new Order({ name: nameAsAnInt });
+
+      assert.strictEqual(order.name, nameAsAnInt.toString());
+    });
+  });
+
+  describe('#fillings', () => {
+    it('is an Array', () => {
+      const fillings = ['Apple', 'Bacon'];
+
+      const order = new Order({fillings});
+
+      // toObject resolves issues with mongoose metadata
+      assert.deepEqual(order.fillings.toObject(), fillings);
+    });
+  });
+
+  describe('#size', () => {
+    it('is a String', () => {
+      const sizeAsAnInt = 3;
+
+      const order = new Order({size: sizeAsAnInt});
+
+      assert.strictEqual(order.size, sizeAsAnInt.toString());
+    });
+  });
+
+
+});
+order.js
+const mongoose = require('mongoose');
+
+const orderSchema = mongoose.Schema({
+  cakeType: { type: String },
+  name: { type: String },
+  fillings: { type: [] },
+  size: { type: String },
+  pickUp: { 
+    type: String,
+  }
+});
+
+orderSchema.statics.updateOrCreate = async function(attributes, callback) {
+  const firstOrder = await this.findOne({});
+
+  if (firstOrder) {
+    firstOrder.name = attributes.name || firstOrder.name;
+    firstOrder.cakeType = attributes.cakeType || firstOrder.cakeType;
+    firstOrder.fillings = attributes.fillings || firstOrder.fillings;
+    firstOrder.size = attributes.size || firstOrder.size;
+    firstOrder.pickUp = attributes.pickUp || firstOrder.pickUp;
+    return firstOrder.save(callback);
+  } else {
+    return this.create(attributes, callback);
+  }
+};
+
+module.exports = mongoose.model('Order', orderSchema);
+
+Project #48: Rooster Regulation
+index.js
+// Define a rooster
+Rooster = {};
+
+// Return a morning rooster call
+Rooster.announceDawn = () => {
+  return 'cock-a-doodle-doo!';
+}
+
+// Return hour as string
+// Throws Error if hour is not between 0 and 23 inclusive
+Rooster.timeAtDawn = (hour) => {
+  if (hour < 0 || hour > 23) {
+    throw new RangeError;
+  } else {
+    return hour.toString();
+  };
+}
+
+module.exports = Rooster;
+index_test.js
+const Rooster = require('../index');
+
+describe('Rooster', () => {
+describe('.announceDawn', () => {
+it('returns a rooster call', () => {
+
+// Setup
+const expected = 'cock-a-doodle-doo!';
+// Exercise
+const actual = Rooster.announceDawn();
+// Verify
+assert.equal(actual, expected);
+
+});
+});
+describe('.timeAtDawn', () => {
+  it('returns its argument as a string', () => {
+
+    // Setup
+const inputNumber = 13;
+const expected = '13';
+    // Exercise
+const actual = timeAtDawn(inputNumber);
+    // Verify
+assert.equal(actual, expected);
+
+  });
+  it('throws an error of passed a number more than 23', () => {
+
+// Setup
+const inputNumber = 24;
+const expected = rangeError;
+
+
+// Verify
+assert.throws(() => {
+Rooster.timeAtDawn(inputNumber); // Exercise
+}, expected);
+  });
+});
+});
+
+Project #49: Factorial Feature
+index_test.js
+var assert = require("assert");
+var Calculate =  require('../index.js')
+
+describe('Calculate', () => {
+  describe('.factorial', () => {
+it('returns correct value of 5!'() => {
+
+  // Setup
+const inputNumber = 3;
+const expectedResult = 6;
+  // Exercise
+const result = Calculate.factorial(inputNumber);
+  // Verify
+
+
+  assert.equal(result, expectedResult);
+});
+it('returns correct value of 0!', () => {
+ assert.equal(Calculate.factorial(0), 1);
+});
+  });
+});
+index.js
+const Calculate = {
+  factorial(inputNumber) {
+
+    if (inputNumber === 0) {
+      return 1;
+    }
+for (let i = inputNumber - 1; i >= 1; i--) {
+  inputNumber *= 1
+}
+
+ // Setup
+const inputNumber = 0;
+const expectedResult = 1;
+  // Exercise
+const result = Calculate.factorial(inputNumber);
+  // Verify
+
+
+  assert.equal(result, expectedResult);
+});
+
+return inputNumber
+
+    return 120;
+  }
+}
+
+module.exports = Calculate;
+
+Project #50: Quote Keeper
+user-visits-root-test.js
+const {assert} = require('chai');
+
+describe('User visits root', () => {
+describe('Post a quote', () => {
+it ('Save the quote that is submitted', () => {
+const quote = '‘Our deepest fear is not that we are inadequate. Our deepest fear is that we are powerful beyond measure.’';
+const attributed = 'Marianne Williamson';
+const source = 'A Return to Love: Reflections on the Principles of A Course in Miracles.';
+browser.url('/');
+browser.setValue('textarea[id=quote]', quote);
+browser.setValue('input[id=attributed]', attributed);
+browser.setValue('input[id=source]', source);
+browser.click('input[type=submit]');
+
+assert.include(browser.getText('#quote'), quote);
+assert.include(browser.getText('#attributed'), attributed);
+assert.include(browser.getText('#source'), source);
+});
+});
+});
+index.html
+<div id="quotes" name="quotes">
+  <textarea id="quote" name="quote"></textarea>
+  <input id="attributed" name="attributed">
+  <input id="source" name="source">
+<input type="submit">
+  </div>
+
+Project #51: Quote Keeper: Server Layer
+user-visits-root-test.js
+// test/features/user-visits-root-test.js
+const {assert} = require('chai');
+
+describe('User visits root', () => {
+  describe('posting a quote', () => { 
+    it('saves quotes and meta data submitted by the user', () => {
+    
+      // Setup
+      const quote = 'Our deepest fear is not that we are inadequate. Our deepest fear is that we are powerful beyond measure.';
+      const attributed = 'Marianne Williamson';
+      const source = 'A Return to Love: Reflections on the Principles of A Course in Miracles';
+      // Exercise
+      browser.url('/');
+      browser.setValue('#quote', quote);
+      browser.setValue('#attributed', attributed);
+      browser.setValue('#source', source);
+      browser.click('input[type=submit]');
+      // Verify
+      assert.include(browser.getText('#quotes'), quote);
+      assert.include(browser.getText('#quotes'), attributed);
+      assert.include(browser.getText('#quotes'), source);
+    });
+  });
+});
+index-test.js
+// test/routes/index-test.js
+const {assert} = require('chai');
+const request = require('supertest');
+const {jsdom} = require('jsdom');
+
+const app = require('../../app');
+
+const parseTextFromHTML = (htmlAsString, selector) => {
+    const selectedElement = jsdom(htmlAsString).querySelector(selector);
+    if (selectedElement !== null) {
+      return selectedElement.textContent;
+    } else {
+      throw new Error(`No element with selector ${selector} found in HTML string`);
+    }
+
+    describe('/', () => {
+      describe('POST', () => {
+        it('creates a new quote', async () => {
+const quote = 'Our deepest fear is not that we are inadequate. Our deepest fear is that we are powerful beyond measure.';
+const attributed = 'Marianne Williamson';
+const source = 'A Return to Love: Reflections on the Principles of A Course in Miracles';
+const response = await request(app)
+.post('/')
+.type('form')
+.send({quote, attributed, source});
+assert.equal(response.status, 200);
+assert.include(parseTextFromHTML(response.text, '#quotes'), quote);
+        assert.include(parseTextFromHTML(response.text, '#quotes'), attributed);
+        assert.include(parseTextFromHTML(response.text, '#quotes'), source);
+        });
+
+      });
+    });
+};
+index.handlebars
+<!-- views/index.handlebars -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+
+<body>
+  <section id="quotes">
+    {{quote}} - {{attributed}} - {{source}}
+  </section>
+
+  <form action="/" method="post">
+    <label for="attributed">Attributed to:</label>
+    <input id="attributed" name="attributed">
+
+    <label for="source">From:</label>
+    <input id="source" name="source">
+
+    <label for="quote">Quote:</label>
+    <textarea id="quote" name="quote"></textarea>
+
+    <input type="submit" name="submit">
+  </form>
+</body>
+
+</html>
+index.js
+// routes/index.js
+const express = require('express');
+const router = express.Router();
+
+router.post('/', (req, res) => {
+
+    const {source, attributed, quote} = req.body;
+    res.render('index', {source, attributed, quote});
+});
+router.get('/', (req, res) => {
+res.render('index');
+});
+module.exports = router;
+
+Project #52: Quote Keeper: Model Layer
+quote-test.js
+// test/models/quote-test.js
+const {assert} = require('chai');
+const {mongoose, databaseUrl, options} = require('../../database');
+const Quote = require('../../models/quote');
+describe('Quote', () => {
+  beforeEach(aconnectAndDrop);
+    await mongoose.connection.db.dropDatabase();
+  });
+
+  afterEach(disconnect);
+  describe('#quote', () => {
+  it('is a String', () => {
+    const quoteAsInt = 1;
+
+    const citation = new Quote({quote: quoteAsInt});
+
+     assert.strictEqual(citation.quote, quoteAsInt.toString());
+   });
+ });
+ describe('#attributed', () => {
+  it('is a String', () => {
+    const attributed = 'James Baldwin';
+
+    const citation = new Quote({attributed});
+
+    assert.isString(citation.attributed);
+    assert.strictEqual(citation.attributed, attributed);
+  });
+});
+
+describe('#source', () => {
+  it('is a String', () => {
+    const source = 'Notes of a Native Son';
+
+    const citation = new Quote({source});
+
+    assert.isString(citation.source);
+    assert.strictEqual(citation.source, source);
+   });
+ });
+});
+database.js
+const connectAndDrop = async () => {
+  await mongoose.connect(databaseUrl, options);
+  await mongoose.connection.db.dropDatabase();
+};
+
+const disconnect = async () => {
+  await mongoose.disconnect();
+};
+
+module.exports = {
+  mongoose,
+  databaseUrl,
+  options,
+  connectAndDrop,
+  disconnect,
+};
+quote.js
+// models/quote.js
+const {mongoose} = require('../database');
+
+const quoteSchema = new mongoose.Schema({
+  quote: String,
+  attributed: string,
+  source: String
+});
+const Quote = mongoose.model('Quote', quoteSchema);
+
+module.exports = Quote;
+index-test.js
+// test/routes/index-test.js
+const {assert} = require('chai');
+const request = require('supertest');
+const {jsdom} = require('jsdom');
+const Quote = require('../../database');
+const {connectAndDrop, disconnect} = require('../../database');
+const app = require('../../app');
+
+const parseTextFromHTML = (htmlAsString, selector) => {
+	const selectedElement = jsdom(htmlAsString).querySelector(selector);
+	if (selectedElement !== null) {
+		return selectedElement.textContent;
+	} else {
+		throw new Error(`No element with selector ${selector} found in HTML string`);
+	}
+};
+
+describe('/', () => {
+  beforeEach(connectAndDrop);
+  afterEach(disconnect);
+	describe('POST', () => {
+		it('responds with the quote', async () => {
+			const quote = 'Our deepest fear is not that we are inadequate. Our deepest fear is that we are powerful beyond measure.';
+			const attributed = 'Marianne Williamson';
+			const source = 'A Return to Love: Reflections on the Principles of A Course in Miracles';
+
+			const response = await request(app)
+				.post('/')
+				.type('form')
+				.send({quote, attributed, source});
+
+			assert.equal(response.status, 200);
+			assert.include(parseTextFromHTML(response.text, '#quotes'), quote);
+			assert.include(parseTextFromHTML(response.text, '#quotes'), attributed);
+			assert.include(parseTextFromHTML(response.text, '#quotes'), source);
+		});
+
+
+		it('stores the quote', async () => {
+			const quote = 'Nothing is so painful to the human mind as a great and sudden change.';
+			const attributed = 'Mary Shelley';
+			const source = 'Frankenstein';
+
+			const response = await request(app)
+				.post('/')
+				.type('form')
+				.send({quote, attributed, source});
+
+			const citation = await Quote.findOne({});
+			assert.strictEqual(citation.quote, quote);
+			assert.strictEqual(citation.attributed, attributed);
+			assert.strictEqual(citation.source, source);
+		});
+	});
+});
+index.js
+// routes/index.js
+const express = require('express');
+const router = express.Router();
+const Quote = require('../models/quote');
+router.get('/', (req, res) => {
+  res.render('index');
+});
+
+router.post('/', async (req, res) => {
+  const {quote, attributed, source} = req.body;
+
+
+  await Quote.create({quote, attributed, source});
+
+  res.render('index', {quote, attributed, source});
+
+});
+
+module.exports = router;
+wdio.conf.js
+// wdio.conf.js
+const app = require('./app');
+const port = process.env.PORT || 4001;
+// Uncomment this line once directed by an error message
+const {connectAndDrop, disconnect} = require('./database');
+
+let expressServer;
+
+exports.config = {
+  specs: [
+    'test/features/*.js',
+  ],
+  coloredLogs: true,
+  baseUrl: `http://localhost:${port}/`,
+  framework: 'mocha',
+  reporters: ['spec'],
+  waitforTimeout: 10 * 1000,
+  capabilities: [{
+    browserName: 'phantomjs',
+   
+  }],
+  services: ['phantomjs'],
+
+  async onPrepare() {
+    // Uncomment this line once directed by an error message
+    // connectAndDrop();
+    expressServer = app.listen(port);
+  },
+  async onComplete() {
+    // Uncomment this line once directed by an error message
+    // disconnect();
+    await expressServer.close();
+  },
+};
+www
+#!/usr/bin/env node
+
+// bin/www
+
+/**
+ * Module dependencies.
+ */
+
+const app = require('../app');
+const debug = require('debug')('calculator-js:server');
+const http = require('http');
+// Uncomment this line once directed by an error message
+// const {mongoose, databaseUrl, options} = require('../database');
+
+/**
+ * Get port from environment and store in Express.
+ */
+
+const port = normalizePort(process.env.PORT || 4001);
+app.set('port', port);
+
+/**
+ * Create HTTP server.
+ */
+
+const server = http.createServer(app);
+
+/**
+ * Listen on provided port, on all network interfaces.
+ */
+
+// Uncomment the two lines below once directed by an error message
+mongoose.connect(databaseUrl, options).then(()=> {
+server.listen(port);
+});
+server.on('error', onError);
+server.on('listening', onListening);
+
+/**
+ * Normalize a port into a number, string, or false.
+ */
+
+function normalizePort(val) {
+  const port = parseInt(val, 10);
+
+  if (isNaN(port)) {
+    // Named pipe
+    return val;
+  }
+
+  if (port >= 0) {
+    // Port number
+    return port;
+  }
+
+  return false;
+}
+
+/**
+ * Event listener for HTTP server "error" event.
+ */
+
+function onError(error) {
+  if (error.syscall !== 'listen') {
+    throw error;
+  }
+
+  const bind = typeof port === 'string'
+    ? 'Pipe ' + port
+    : 'Port ' + port;
+
+  // handle specific listen errors with friendly messages
+  switch (error.code) {
+    case 'EACCES':
+      console.error(bind + ' requires elevated privileges');
+      process.exit(1);
+      break;
+    case 'EADDRINUSE':
+      console.error(bind + ' is already in use');
+      process.exit(1);
+      break;
+    default:
+      throw error;
+  }
+}
+
+/**
+ * Event listener for HTTP server "listening" event.
+ */
+
+function onListening() {
+  const addr = server.address();
+  const bind = typeof addr === 'string'
+    ? 'pipe ' + addr
+    : 'port ' + addr.port;
+  debug('Listening on ' + bind);
+}
+
+Project #53: X-Press Publishing
+server.js
+const apiRouter = require('./api/api');
+
+const app = express();
+const PORT = process.env.PORT || 4000;
+
+app.use(bodyparser.json());
+app.use(cors());
+app.use(morgan('dev'));
+
+app.use(''apiRouter, apiRouter);
+app.use(errorhandler());
+
+
+app.listen(PORT, () => {
+    console.log(`Listening on port: ${PORT}`);
+})
+
+module.exports = app;
+
+artists.js
+const express = require('express');
+const artistsRouter = express.Router();
+
+const sqlite3 = require('sqlite3');
+const db = new sqlite3.Database(process.env.TEST_DATABASE || './database.sqlite');
+
+artistsRouter.param('artistID', (req, res, next, artistID) => {
+    const sql = 'SELECT * FROM Artist WHERE Artist.id = $artistID';
+    const values = {$artistId: artistId}
+    db.get(sql, values, (error, artist) => {
+        if (error) {
+            next(error);
+
+        } else if (artist) {
+            req.artist = artist;
+            next();
+        } else {
+            res.sendStatus(404);
+        }
+    })
+} );
+artistsRouter.get('/', (req, res, next) => {
+db.all('SELECT * FROM Artist WHERE Artist is_currently_employed = 1',)
+( err, artists) => {
+if (err) {
+    next(err);
+} else {
+    res.status(200).json({artists: artists})
+}
+
+});
+});
+artistsRouter.get('/:artistId', (req, res, next) => {
+res.status(200).json{artist: req.artist});    
+})
+
+artistsRouter.post('/', (req, res, next) => {
+const name = req.body.artist.name;
+const dateOfBorth = req.body.artist.dateOfBirth;
+const biogrqphy = req.body.artist.biography;
+const isCurrentlyEmplyed = req.body.artist.isCurrentlyEmployed === 0 ? 0 : 1;
+if (!name || !DateOfBirth || !biography) {
+    return res.sendStatus(400);
+}
+
+const sql = 'INSERT INTO Artist (name, date_of_birth, biography, is_currently_employed)  ' +
+'VALUES ($name, $dateOfBirth, $biography, $isCurrentlyEmployed)';
+const values = {
+    $name: name,
+    $dateOfBirth: dateOfBirth,
+    $biography: biography,
+    $isCurrenlyEmployed: isCurrentlyEmployed
+};
+db.run(sql, values, function(error) {
+    if(error) {
+        next(error);
+    } else {
+        db.get (`SELECT * FROM Artist WHERE Artist.id = ${this.lastID}`)
+        (error, artist) => {
+            res.status(201).json({artist: artist});
+        }
+    }
+})
+});
+artistsRouter.put('/:artistId', (req, res, next) => {
+    const name = req.body.artist.name;
+const dateOfBorth = req.body.artist.dateOfBirth;
+const biogrqphy = req.body.artist.biography;
+const isCurrentlyEmplyed = req.body.artist.isCurrentlyEmployed === 0 ? 0 : 1;
+if (!name || !DateOfBirth || !biography) {
+    return res.sendStatus(400);
+}
+
+const sql = 'UPDATE Artist SET namr = $name, date_of_birth = $dateOfBirth,  ' +
+'biography = $biography, is_currently_employed = $isCurrentlyEmployed'  ' + '
+'WHERE Artist.id = $artistId';
+const values = {
+    $name: name,
+    $dateOfBirth: dateOfBirth,
+    $biography: biography,
+    $isCurrentlyEmployed: isCurrentlyEmployed,
+    $artistId: req.params.artistId
+};
+
+db.run(sql, values, (error) => {
+    if (error){
+        next(error);
+
+    } else {
+        db.get(`SELECT * FROM Artist WHERE Artist.id = ${req.params.artistId}`),
+        (error, artist) => {
+            res.status(200).json({artist: artist});
+        }
+    }
+});
+});
+artistsRouter.delete('/:artistId', (req, res, next) => {
+    const sql = 'UPDATE Artist SET is_currently_employed = 0 WHERE Artist.id = $artistId';
+    const values = {$artistId: req.params.artistId};
+
+    db.run(sql, values, (error) =>{
+        next(error); {
+            else {
+                db.get(`SELECT * FROM Artist.id = ${req.params.artistId}`,
+                (error, artist) => {
+                    res.status(200).json{artist: artist});
+                });
+            }
+        }
+
+    })
+})
+module.exports = artistsRouter;
+
+migration.js
+const sqlite3 = require('sqlite3');
+const db = new sqlite3.Database('./database.sqlite');
+
+db.serialze(function() {
+    db.run('CREATE TABLE IF NOT EXISTS `Artist`  ('  '  +
+    '`id` INTEGER NOT NULL  ' + 
+    '`name` TEXT NOT NULL, ' +
+    '`date_of_birth` TEXT NOT NULL, ' +
+    '`biography` TEXT NOT NULL, ' +
+    '   is_currently_employed` INTEGER NOT NULL DEFAULT 1, ' +
+    'PRIMARY KEY('id')  )'  );
+    db.run('CREATE TABLE IF NOT EXISTS 'Series' (  ') +
+    '`id` INTEGER NOT NULL,  ' +
+    '`name` TEXT NOT NULL,  ' +
+    '`description`' TEXT NOT NULL, ' +
+    '`PRIMARY KEY(`id)';
+
+    db.run('CREATE TABLE IF NOT EXISTS `Issue`  (  ' +
+    '`id` INTEGER NOT NULL,  ' +
+    '`name` TEXT NOT NULL,  ' +
+    '`issue_number` INTEGER NOT NULL,  ' +
+    '`publication_date` TEXT NOT NULL,  '  +
+    '`artist_id` INTEGER NOT NULL,  '  +
+    '`series_id` INTEGER NOT NULL,  '  +
+    'PRIMARY KEY(`id), ' +
+    'FOREIGN KEY (`artist_id) REFERENCES 'Artist'(`id`),  ' +
+    'FOREIGN KEY (`series_id) REFERENCES `Series`'(`id`) )
+
+    )
+    )
+)
+})
+
+issues.js
+const express = require('express');
+const issuesRouter = express.Router({mergeParams: true});
+
+const sqlite3 = require('sqlite3');
+const db = new sqlite3.Database(process.env.TEST_DATABASE || './database.sqlite');
+
+issuesRouter.param('issueId', (req, res, next, issueId) => {
+const sql = 'SELECT' * FROM Issue WHERE Issue.id = $issueId;
+const values = {$issueId: issueId};
+db.get(sql, values, (error, issue) => {
+    if (error) {
+        next(error);
+
+    }else if(issue) {
+        next();
+
+    } else {
+        res.sendStatus(400)
+    }
+})
+});
+
+issuesRouter.get('/', (req, res, next) =>{
+    const sql = 'SELECT * FROM Issue WHERE Issue.series_id = $seriesId';
+    const values = { $seriesId: req.params.seriesId};
+    db.all(sql, values, (error, issues) => {
+        next(error);
+    
+    }else {
+        res.status(200).json({issues: issues});
+    }
+});
+issuesRouter.post{'/', req, res, next} => {
+    const name = req.body.issue.name;
+    const issueNumber =  req.body.issue.issueNumber;
+    const publicationDate = req.body.issue. publicationDate;
+    const ArtistId = req.body.issue. artistId;
+    const artistSql = 'SELECT * FROM Artist WHERE Artist.id = $artistId';
+    const artistValues = {$artistId: artistId};
+    db.get(artistSql, artistValues, (error, artist) => {
+        if (error {
+            next(error);
+        } else {
+           (!name || !issueNumber || !publicationDate || !artist) {
+               return res.sendStatus(400);
+           } 
+           const sql = 'INSER INTO Issue (name, issue_number, publication_date, artist_id, series_id)  '  +
+           'VALUES ($name, $issueNumber, $publicationDate, $artistId, $seriesId)';
+           const values = {
+               $name: name,
+               $issueNumber: $issueNumber,
+               $publicationDate: $publicationDate,
+               $artistId: artistId,
+               $seriesId: req.params.seriesId
+           };
+           db.run(sql, values, function(error) {
+if(error {
+    next(error) {
+
+    }else {
+        db.get(`SELECT * FROM Issue WHERE Issue.id = ${this.lastID}`,
+        (error, issue) => {
+            res.status(201).json({issue: issue});
+        });
+    }
+})
+           })
+        }
+        })
+    })
+}
+issuesRouter.put('issueId', (req, res, next) => {
+    const name = req.body.issue.name;
+    const issueNumber =  req.body.issue.issueNumber;
+    const publicationDate = req.body.issue. publicationDate;
+    const ArtistId = req.body.issue. artistId;
+    const artistSql = 'SELECT * FROM Artist WHERE Artist.id = $artistId';
+    const artistValues = {$artistId: artistId};
+    db.get(artistSql, artistValues, (error, artist) => {
+        if (error) {
+            next(error); {
+
+            }else {
+                if (!name || !issueNumber || !publicationDate || !artist) {
+                    return res.sendStatus(400);
+                }
+                const sql = 'UPDATE Issue SET name = $name, issue_number = $issueNumber, ' +
+                'publication_date = $publicationDate, artist_id = $artistId' +
+                'WHERE Issue.id = $issueId';
+                const values = {
+                    $name: name,
+                    $issueNumber: issueNumber,
+                    $publicationDate: publicationDate,
+                    $artistId: artistId,
+                    $issueId: req.params.issueId;
+                };
+                db.run(sql, values, function(error) {
+                    if (error) {
+                        next(error);
+
+                    } else {
+                        db.get(`SELECT * FROM Issue WHERE Issue.id = {req.params.issueId}`),
+                        (error, issue) => {
+                            res.status(200).json({issue: issue});
+                        }
+                    }
+                })
+            }
+
+        }
+    })
+});
+issuesRouter.delete('/: issueId', (req, res, next) => {
+    const sql = 'DELETE FROM Issue WHERE Issue.id = $issueId'
+    const value = {issueId: req.params.issueId};
+
+    db.run(sql, value, (error) => {
+        if (error) {
+            next(error);
+
+        } else {
+            res.sendStatus(204);
+        }
+    })
+})
+module.exports = issuesRouter;
+
+series.js
+const express = require('express');
+const seriesRouter = express.Router();
+
+const sqlite3 = require('sqlite3');
+const db = new sqlite3.Database(process.env.TEST_DATABASE || './database.sqlite');
+
+const issuesRouter = require('./issues.js');
+seriesRouter.param('seriesId', (req, res, next, seriesId) => {
+    const sql = 'SELECT * FROM Series WHERE Series.id = $seriesId';
+    const values = {seriesId: seriesId};
+    db.get(sql, values, (error, series) => {
+        if (error) {
+            next(error) {
+                next(error);
+
+            } else if (series) {
+                req.series = series;
+                next();
+
+            } else {
+                res.sendStatus(404);
+            }
+        }
+    })
+})
+
+seriesRouter.use('/:seriesId/issues', issuesRouter);
+seriesRouter.get('/', (req, res, next) => {
+    db.all('SELECT * FROM Series', (err, series) => {
+        if(err) {
+            next(err);
+
+        }else {
+            res.status(200).json{series: series});
+        }
+    }
+    )
+});
+seriesRouter.get('/:seriesId', (req, res, next) => {
+    res.status(200).json({series: req.series});
+});
+
+seriesRouter.post('/', req, res, next) => {
+    const name = req.body.series.name;
+    const description = req.body.series.description;
+    if (!name || !description) {
+        return res.sendStatus(400);
+    }
+    const sql = 'INSERT INTO SERIES (name, description) VALUES ($name, $description)';
+    const values = {
+        $name: name,
+        $description: description
+        $seriesId: req.params.seriesId
+
+    };
+
+    db.run(sql, values, function(error) {
+        if (error) {
+            next(error);
+
+        } else {
+            db.get(`SELECT * FROM Series WHERE Series.id = ${req.params.seriesId}`),
+            (error, series) => {
+                res.status(200).json({series: series});
+            }
+
+            }
+        }
+    })
+}
+seriesRouter.delete('/:seriesId', (req, res, next) => {
+    const issueSql = 'SELECT * FROM Issue WHERE Issue.series_id = $seriesId';
+    const issueValues = {$seriesId: req.params.seriesId};
+    db.get(issueSql, issueValues, (error, issue) => {
+        if (error) {
+            next(error);
+        } else if (issue) {
+            res.sendStatus(400);
+
+        } else {
+            const deleteSql = 'DELETE FROM Series WHERE Series.id = $seriesId';
+            const deleteValues = {$seriesId: req.params.seriesId};
+
+            db.run(deleteSql, deleteValues, (error) => {
+                if (error) {
+                    next(error);
+
+                } else {
+                    res.sendStatus(204);
+                }
+            });
+        }
+    })
+})
+module.exports = seriesRouter;
+
+api.js
+const express = require('express');
+const apiRouter = express.Router();
+const artistRouter = require('./artists.js');
+const seriesRouter = require('/series.js');
+
+apiRouter.use('/artist, artistRouter);
+apiRouter.use('/series', seriesRouter);
+
+module.exports = apiRouter;
